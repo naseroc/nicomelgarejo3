@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'TIClass en el 🫰',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        🚀 En 2015, desarrollé desde cero la primera versión de TIClass, gracias al bootcamp FullStack en Desafío Latam (Generación 0). En nuestro primer año, logramos recaudar 13.000 USD con Socialab 🎉, y al siguiente, 63.000 USD con Corfo e ImagineLab. Iniciamos el cierre de la empresa el 2025.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Pionero en Educación en Streaming',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      🚀 En 2012, cuando el streaming aún era un desafío, creé el primer proyecto de clases gratuitas para la PSU vía streaming. 📚 Siempre comprometido con democratizar la educación y abrir oportunidades para todos.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Creador del primer Libro PSU Gratuito',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        El 2008 publicamos el Manual de Preparación PSU para Ciencias Física. Se imprimió en tapa dura para los estudiantes del Preuniversitario Popular Victor Jara y también está disponible gratis en formato PDF. Se ha descargado más de 250.000 a la fecha.
       </>
     ),
   },

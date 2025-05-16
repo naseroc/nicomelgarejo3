@@ -1,19 +1,33 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+portafolio:
+  label: Portafolio
+  description: "Proyectos y ejemplos que muestran lo que soy capaz de crear como educador y desarrollador."
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+educacion:
+  label: Educación
+  description: "Reflexiones y experiencias sobre el proceso de enseñar y aprender."
+
+tecnologia:
+  label: Tecnología
+  description: "Desarrollos tecnológicos, herramientas y plataformas que uso para crear contenido educativo."
+
+matematicas:
+  label: Matemáticas
+  description: "Conceptos, problemas y estrategias para enseñar y aprender matemáticas."
+
+programacion:
+  label: Programación
+  description: "Tutoriales y proyectos relacionados con programación, incluyendo Python, JavaScript y más."
+
+filosofia-educativa:
+  label: Filosofía Educativa
+  description: "Ideas sobre cómo y por qué enseñar de una manera que inspire a los estudiantes a aprender."
+
+compartir-hace-bien:
+  label: Compartir Hace Bien
+  description: "Reflexiones sobre el valor de compartir conocimiento en un mundo digitalizado."
 
 docusaurus:
   label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+  description: "Tecnología usada para crear esta web."
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+

@@ -1,0 +1,117 @@
+---
+title: Valor posicional, múltiplos y divisores
+sidebar_label: Valor posicional, múltiplos y divisores
+slug: /valor_posicional_multiplos_divisores
+---
+
+# Conocimientos Previos
+Estas son algunas temáticas que no están en el temario oficial pero se requieren para tener una mayor comprensión de la matemática presente en la **PAES**.
+## Valor posicional
+
+Una de las características del sistema de numeración decimal es la existencia del valor posicional. El valor posicional es el valor que toma un dígito de acuerdo con la posición que ocupa dentro del número.
+
+Por ejemplo, en el número **1.256**, el dígito **2** se ubica en la posición de las centenas, por lo que su valor posicional es $2 \cdot 10^2$, es decir, 200.
+
+El dígito **1** puede tener alguno de los siguientes valores de acuerdo a su posición:
+
+<div className="table-container">
+    $$
+    \begin{array}{|l|c|}
+    \hline
+    \textbf{Posición del dígito 1} & \textbf{Valor en unidades} \\
+    \hline
+    \text{Milésima} & 0,001 \\
+    \hline
+    \text{Centésima} & 0,01 \\
+    \hline
+    \text{Décima} & 0,1 \\
+    \hline
+    \text{Unidad} & 1 \\
+    \hline
+    \text{Decena} & 10 \\
+    \hline
+    \text{Centena} & 100 \\
+    \hline
+    \text{Unidad de mil} & 1.000 \\
+    \hline
+    \text{Decena de mil} & 10.000 \\
+    \hline
+    \text{Centena de mil} & 100.000 \\
+    \hline
+    \end{array}
+    $$
+</div>
+
+## Descomposición de Números en el Sistema Decimal
+
+A partir del valor posicional de cada dígito de un número es posible representar dicho número como una adición donde cada sumando corresponde al producto entre un dígito y una potencia de 10.
+
+Por ejemplo, el número **1.256** puede ser representado como:
+
+$$1.256 = 1 \cdot 10^3 + 2 \cdot 10^2 + 5 \cdot 10^1 + 6 \cdot 10^0$$
+
+Un número decimal también puede ser representado de este modo. Por ejemplo, el número **0,573**:
+
+$$0,573 = 5 \cdot 10^{-1} + 7 \cdot 10^{-2} + 3 \cdot 10^{-3}$$
+
+Si un número está representado algebraicamente, entonces ese número puede descomponerse aditivamente. Por ejemplo, el número **abc,def**, con **a, b, c, d, e** y **f** dígitos desde 0 hasta 9, puede ser escrito equivalentemente como:
+
+$$abc,def = a \cdot 10^2 + b \cdot 10^1 + c \cdot 10^0 + d \cdot 10^{-1} + e \cdot 10^{-2} + f \cdot 10^{-3}$$
+
+
+# Múltiplos y Divisores
+
+<div className="definition-box">
+  <strong>Definición:</strong> Los múltiplos de un número entero son todos los resultados que se obtienen al multiplicar ese número entero por cada uno de los números enteros.
+</div>
+
+Por ejemplo, el conjunto de los múltiplos de **4** es:
+
+$$\{\ldots, -16, -12, -8, -4, 0, 4, 8, 12, 16, \ldots\}$$
+
+Puedes notar que el conjunto de los múltiplos de un número entero posee infinitos elementos.
+
+Un número entero es múltiplo de otro si lo contiene un número entero de veces. Por ejemplo, **24** es múltiplo de **4** porque **4** está contenido 6 veces en **24** ($4 \cdot 6 = 24$).
+
+Nota que **0** es múltiplo de todos los números enteros, pero **0** solamente tiene un múltiplo: sí mismo.
+
+Por otro lado, todos los números enteros son múltiplos de **1**.
+
+## Mínimo Común Múltiplo
+
+El mínimo común múltiplo entre dos números enteros corresponde al menor múltiplo que tienen en común estas cantidades.
+
+Por ejemplo, calcularemos el mínimo común múltiplo entre **6** y **15**, considerando solo sus múltiplos positivos:
+
+$$\text{Múltiplos de 6} = \{6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, \ldots\}$$
+
+$$\text{Múltiplos de 15} = \{15, 30, 45, 60, 75, 90, 105, 120, 135, 150, \ldots\}$$
+
+El menor elemento que ambos conjuntos tienen en común es **30**, por lo tanto, en este contexto el mínimo común múltiplo entre **6** y **15** es **30**.
+
+<div className="definition-box">
+  <strong>Definición:</strong> Los divisores de un número entero son los números enteros que lo pueden dividir de manera exacta, es decir, obteniendo como cociente otro número entero y resto 0.
+</div>
+
+Por ejemplo, los divisores positivos de **12** son:
+
+$$\{1, 2, 3, 4, 6, 12\}$$
+
+Porque se cumple que:
+
+<div className="table-container">
+$$
+\begin{array}{c c c}
+12 \div 1 = 12 & 12 \div 2 = 6 & 12 \div 3 = 4 \\
+12 \div 4 = 3 & 12 \div 6 = 2 & 12 \div 12 = 1 \\
+\end{array}
+$$
+</div>
+
+Nota que ser divisor es lo recíproco a ser múltiplo. Por ejemplo, si **24** es múltiplo de **4**, entonces **4** es divisor de **24**. Además, **24** es múltiplo de **6**, puesto que **6** es divisor de **24**.
+
+Por otro lado, un divisor de cierto número es factor de ese número. Por ejemplo, **6** es divisor de **24**, entonces se dice que **6** es un factor de **24** ya que:
+
+$$6 \cdot 4 = 24$$
+
+En este ejemplo, **6** y **4** son divisores de **24**, por lo que **6** y **4** son factores de **24**.
