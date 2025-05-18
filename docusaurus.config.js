@@ -88,6 +88,19 @@ const config = {
         async: true,
         crossorigin: 'anonymous',
       },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-PF3TRE4EWE',
+        async: true,
+      },
+      {
+        tagName: 'script',
+        innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PF3TRE4EWE');
+      `,
+      },
     ],
     navbar: {
       title: 'Nico Melgarejo',
