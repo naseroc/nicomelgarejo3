@@ -72,6 +72,23 @@ const config = {
   ],
 
   themeConfig: {
+    metadata: [
+      // Google AdSense script for all pages
+      {
+        name: 'adsense-script',
+        // This will inject the AdSense script into the <head>
+        // Docusaurus will render this as a <script> tag
+        // See: https://docusaurus.io/docs/api/docusaurus-config#metadata
+        // But metadata is for <meta> tags, so instead use 'scripts' below
+      },
+    ],
+    scripts: [
+      {
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4276701549984939',
+        async: true,
+        crossorigin: 'anonymous',
+      },
+    ],
     navbar: {
       title: 'Nico Melgarejo',
       logo: {
@@ -144,5 +161,4 @@ const config = {
     },
   },
 };
-
 export default config;
