@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknicomelgarejo_3=self.webpackChunknicomelgarejo_3||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bienvenidos a mi Portafolio Vivo","permalink":"/blog/primer-post","unlisted":false,"date":"2025-05-16T00:00:00.000Z"}]}')}}]);

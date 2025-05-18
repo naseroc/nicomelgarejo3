@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Nico Melgarejo Blog</title>
+        <link>https://nicomelgarejo.com/blog</link>
+        <description>Nico Melgarejo Blog</description>
+        <lastBuildDate>Fri, 16 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>es</language>
+        <item>
+            <title><![CDATA[Bienvenidos a mi Portafolio Vivo]]></title>
+            <link>https://nicomelgarejo.com/blog/primer-post</link>
+            <guid>https://nicomelgarejo.com/blog/primer-post</guid>
+            <pubDate>Fri, 16 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Bienvenidos a mi primer post. Aquí comienza un proyecto que no solo busca ser un libro digital para la PAES, sino también un portafolio vivo de las habilidades que he desarrollado como educador y desarrollador.]]></description>
+            <content:encoded><![CDATA[<p>Bienvenidos a mi primer post. Aquí comienza un proyecto que no solo busca ser un libro digital para la PAES, sino también un portafolio vivo de las habilidades que he desarrollado como educador y desarrollador.</p>
+<p>Implementar <strong>Docusaurus</strong> para este proyecto es en sí mismo una muestra de lo que soy capaz de construir, combinando tecnología, diseño educativo y programación para crear experiencias de aprendizaje más efectivas. Pero no se trata solo de tecnología, sino de una filosofía que me ha acompañado siempre: <strong>Compartir hace bien</strong>.</p>
+<p>En este blog, iré compartiendo cómo desarrollo contenido educativo propio, videos, textos, imágenes, diagramas y más. También exploraré los desafíos técnicos y creativos que enfrento al crear estos recursos. Porque aunque parezca una locura ir en contra de la marea del mundo digital <strong>onlyfanizado</strong>, creo que el conocimiento es más poderoso cuando se comparte libremente.</p>
+<p>Gracias por acompañarme en este camino.</p>
+<hr>
+<p>Si te interesa saber más sobre cómo fue el proceso de implementar este sitio con <strong>Docusaurus</strong>, cómo manejo el contenido educativo y cómo optimizo cada parte para que sea clara y efectiva, quédate atento a las próximas entradas.</p>]]></content:encoded>
+            <category>Portafolio</category>
+            <category>Educación</category>
+            <category>Tecnología</category>
+            <category>Docusaurus</category>
+        </item>
+    </channel>
+</rss>
