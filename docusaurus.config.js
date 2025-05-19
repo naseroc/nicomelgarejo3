@@ -76,34 +76,6 @@ const config = {
       { name: 'keywords', content: 'educación, tecnología, innovación' },
       { name: 'twitter:card', content: 'summary_large_image' },
     ],
-    headTags: [
-      // Google AdSense
-      {
-        tagName: 'script',
-        attributes: {
-          async: true,
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4276701549984939',
-          crossorigin: 'anonymous',
-        },
-      },
-      // Google Analytics
-      {
-        tagName: 'script',
-        attributes: {
-          async: true,
-          src: 'https://www.googletagmanager.com/gtag/js?id=G-PF3TRE4EWE',
-        },
-      },
-      {
-        tagName: 'script',
-        innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-PF3TRE4EWE');
-        `,
-      },
-    ],
     navbar: {
       title: 'Nico Melgarejo',
       logo: {
@@ -175,5 +147,37 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
   },
+  // ✅ Mueve los headTags aquí
+  headTags: [
+    // Google AdSense
+    {
+      tagName: 'script',
+      attributes: {
+        async: "true",
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4276701549984939',
+        crossorigin: 'anonymous',
+      },
+    },
+    // Google Analytics
+    {
+      tagName: 'script',
+      attributes: {
+        async: "true",
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-PF3TRE4EWE',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'text/javascript',
+      },
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PF3TRE4EWE');
+      `,
+    },
+  ],
 };
 export default config;
