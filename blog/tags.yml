@@ -1,26 +1,6 @@
-portafolio:
-  label: Portafolio
-  description: "Proyectos y ejemplos que muestran lo que soy capaz de crear como educador y desarrollador."
-
-educacion:
-  label: Educación
-  description: "Reflexiones y experiencias sobre el proceso de enseñar y aprender."
-
-tecnologia:
-  label: Tecnología
-  description: "Desarrollos tecnológicos, herramientas y plataformas que uso para crear contenido educativo."
-
-matematicas:
-  label: Matemáticas
-  description: "Conceptos, problemas y estrategias para enseñar y aprender matemáticas."
-
-programacion:
-  label: Programación
-  description: "Tutoriales y proyectos relacionados con programación, incluyendo Python, JavaScript y más."
-
-filosofia-educativa:
-  label: Filosofía Educativa
-  description: "Ideas sobre cómo y por qué enseñar de una manera que inspire a los estudiantes a aprender."
+admision:
+  label: Admisión
+  description: "Información relacionada con el proceso de postulación a la educación superior en Chile."
 
 compartir-hace-bien:
   label: Compartir Hace Bien
@@ -30,4 +10,34 @@ docusaurus:
   label: Docusaurus
   description: "Tecnología usada para crear esta web."
 
+educacion:
+  label: Educación
+  description: "Reflexiones y experiencias sobre el proceso de enseñar y aprender."
 
+filosofia-educativa:
+  label: Filosofía Educativa
+  description: "Ideas sobre cómo y por qué enseñar de una manera que inspire a los estudiantes a aprender."
+
+m2:
+  label: M2
+  description: "Carreras que exigen la prueba de Competencia Matemática 2 como requisito."
+
+matematicas:
+  label: Matemáticas
+  description: "Conceptos, problemas y estrategias para enseñar y aprender matemáticas."
+
+paes:
+  label: PAES
+  description: "Contenidos y estrategias para preparar la Prueba de Acceso a la Educación Superior."
+
+portafolio:
+  label: Portafolio
+  description: "Proyectos y ejemplos que muestran lo que soy capaz de crear como educador y desarrollador."
+
+programacion:
+  label: Programación
+  description: "Tutoriales y proyectos relacionados con programación, incluyendo Python, JavaScript y más."
+
+tecnologia:
+  label: Tecnología
+  description: "Desarrollos tecnológicos, herramientas y plataformas que uso para crear contenido educativo."
