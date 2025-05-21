@@ -1,0 +1,256 @@
+---
+title: Introducción a las potencias
+sidebar_label: Introducción a las potencias
+slug: /potencias/introduccion
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Información Temario PAES
+
+Este resumen corresponde al Eje Temático _Números_ en la unidad temática _Potencias_ la que se describe como:
+
+- Propiedades de las potencias de base racional y exponente racional.
+- Problemas que involucren potencias en diversos contextos.
+
+---
+
+## Concepto de potencia
+
+Una potencia es una forma abreviada de escribir una multiplicación de factores iguales. La base corresponde al factor que se repite y el exponente indica cuántas veces debe repetirse:
+
+$$
+a^n = a \cdot a \cdot a \cdot \dots \cdot a \quad (n\text{ veces})
+$$
+
+---
+
+## Potencias de base racional y exponente entero
+
+Una potencia de base racional y exponente entero tiene la forma $a^n$, con $a \in \mathbb{Q}$ y $n \in \mathbb{Z}$.
+
+### Potencias con exponente entero positivo
+
+Cuando el exponente es positivo, se repite la base las veces que indique el exponente:
+
+**Ejemplo 1**  
+$$
+\left(\frac{2}{3}\right)^4 = \frac{2 \cdot 2 \cdot 2 \cdot 2}{3 \cdot 3 \cdot 3 \cdot 3} = \frac{16}{81}
+$$
+
+**Ejemplo 2**  
+$$
+\left(-\frac{2}{3}\right)^4 = \frac{(-2)^4}{3^4} = \frac{16}{81}
+$$
+
+**Ejemplo 3**  
+$$
+-\left(\frac{2}{3}\right)^4 = -\frac{16}{81}
+$$
+
+**Ejemplo 4**  
+$$
+\left(-\frac{2}{3}\right)^3 = \frac{(-2)^3}{3^3} = -\frac{8}{27}
+$$
+
+<div className="definition-box">
+  <strong>Generalización:</strong><br/>
+  Para $a, b \in \mathbb{Z}, b \ne 0, n \in \mathbb{Z}^+$ se cumple:<br/>
+  $$
+  \left(\frac{a}{b}\right)^n = \frac{a^n}{b^n}
+  $$
+  <ul>
+    <li>Si $\dfrac{a}{b} < 0$ y $n$ par, entonces el resultado es positivo.</li>
+    <li>Si $\dfrac{a}{b} < 0$ y $n$ impar, entonces el resultado es negativo.</li>
+  </ul>
+</div>
+
+---
+
+### Potencias con exponente cero
+
+Sea $R \ne 0$ un número racional:
+
+$$
+R^0 = R^{n - n} = \frac{R^n}{R^n} = 1
+$$
+
+<div className="definition-box">
+  $$
+  \left(\frac{a}{b}\right)^0 = 1 \quad \text{con } a, b \in \mathbb{Z}, b \ne 0
+  $$
+</div>
+
+---
+
+### Potencias con exponente entero negativo
+
+Para $7^{-2}$, por ejemplo:
+
+$$
+7^{-2} = 7^{3 - 5} = \frac{7^3}{7^5} = \frac{1}{7^2} = \frac{1}{49}
+$$
+
+**Ejemplo:**  
+$$
+\left(\frac{2}{3}\right)^{-4} = \left(\frac{3}{2}\right)^4 = \frac{81}{16}
+$$
+
+**Otro ejemplo:**  
+$$
+\left(-\frac{2}{3}\right)^{-4} = \left(-\frac{3}{2}\right)^4 = \frac{81}{16}
+$$
+
+**Y si el exponente es impar:**  
+$$
+\left(-\frac{2}{3}\right)^{-3} = \left(-\frac{3}{2}\right)^3 = -\frac{27}{8}
+$$
+
+<div className="definition-box">
+  <strong>Generalización:</strong><br/>
+  $$
+  \left(\frac{a}{b}\right)^{-n} = \left(\frac{b}{a}\right)^n = \frac{b^n}{a^n}
+  $$
+  <ul>
+    <li>Si $\dfrac{a}{b} < 0$ y $n$ par: resultado positivo.</li>
+    <li>Si $\dfrac{a}{b} < 0$ y $n$ impar: resultado negativo.</li>
+  </ul>
+</div>
+
+---
+
+## Propiedades de las potencias
+
+### Multiplicación de potencias de igual base
+$$
+\left(\frac{a}{b}\right)^n \cdot \left(\frac{a}{b}\right)^m = \left(\frac{a}{b}\right)^{n+m}
+$$
+
+### Multiplicación con igual exponente
+$$
+\left(\frac{a}{b}\right)^n \cdot \left(\frac{c}{d}\right)^n = \left(\frac{a}{b} \cdot \frac{c}{d}\right)^n
+$$
+
+### División de potencias de igual base
+$$
+\left(\frac{a}{b}\right)^n : \left(\frac{a}{b}\right)^m = \left(\frac{a}{b}\right)^{n-m}
+$$
+
+### División de potencias con igual exponente
+$$
+\left(\frac{a}{b}\right)^n : \left(\frac{c}{d}\right)^n = \left(\frac{a}{b} : \frac{c}{d}\right)^n
+$$
+
+### Potencia de una potencia
+$$
+\left[\left(\frac{a}{b}\right)^n\right]^m = \left(\frac{a}{b}\right)^{n \cdot m}
+$$
+
+Estas propiedades también se aplican cuando las bases son racionales y los exponentes enteros.
+
+
+
+---
+
+## Ejercicios con potencias
+
+### Ejercicio 1
+
+**Sea $n$ un número racional tal que $0 < n < 1$. ¿Cuál de estas afirmaciones es verdadera?**
+
+A) $n^0 = 0$  
+B) $n^{-1} > 1$  
+C) $-n^{-1} > 0$  
+D) $n \cdot n = 2n$  
+E) $(-n)^2 < 0$
+
+<details>
+<summary>Ver solución</summary>
+
+**Paso a paso:**
+
+- A) Falsa: cualquier número distinto de 0 elevado a 0 da 1.
+- B) Verdadera: si $0 < n < 1$ entonces su inverso $n^{-1} = \frac{1}{n}$ es mayor que 1.
+- C) Falsa: el inverso es positivo, pero el signo negativo vuelve el resultado negativo.
+- D) Falsa: $n \cdot n = n^2$, no $2n$.
+- E) Falsa: $(-n)^2$ siempre da un valor positivo.
+
+✅ **Alternativa correcta: B**
+
+</details>
+
+---
+
+### Ejercicio 2
+
+**¿Cuál de estas potencias equivale al resultado de $\left(\dfrac{2}{3}\right)^{20} \cdot \left(\dfrac{4}{9}\right)^5$?**
+
+A) $\left(\dfrac{2}{3}\right)^{10}$  
+B) $\left(\dfrac{2}{3}\right)^{27}$  
+C) $\left(\dfrac{2}{3}\right)^{30}$  
+D) $\left(\dfrac{2}{3}\right)^{140}$  
+E) $\left(\dfrac{2}{3}\right)^{200}$
+
+<details>
+<summary>Ver solución</summary>
+
+**Paso a paso:**
+
+- Reescribimos: $\left(\frac{2}{3}\right)^{20} \cdot \left(\frac{4}{9}\right)^5$
+- Notamos que $\frac{4}{9} = \left(\frac{2}{3}\right)^2$
+- Entonces: $\left(\frac{4}{9}\right)^5 = \left(\left(\frac{2}{3}\right)^2\right)^5 = \left(\frac{2}{3}\right)^{10}$
+- Sumamos los exponentes: $20 + 10 = 30$
+
+✅ **Alternativa correcta: C**
+
+</details>
+
+---
+
+### Ejercicio 3
+
+**¿Cuál de estas potencias equivale al resultado de $\left[(-12)^6 : 4^6\right] \cdot (-3)^2$?**
+
+A) $(-3)^8$  
+B) $-3^8$  
+C) $(-6)^2$  
+D) $-6^2$  
+E) $(-3)^{12}$
+
+<details>
+<summary>Ver solución</summary>
+
+**Paso a paso:**
+
+- $\left[(-12)^6 : 4^6\right] = \left(\frac{-12}{4}\right)^6 = (-3)^6$
+- Luego multiplicamos: $(-3)^6 \cdot (-3)^2 = (-3)^{6+2} = (-3)^8$
+
+✅ **Alternativa correcta: A**
+
+</details>
+
+---
+
+### Ejercicio 4
+
+**Sean $a$ y $b$ números reales. Si el resultado de la potencia $a^b$ es 0, entonces es _siempre_ cierto que:**
+
+A) $a = 0$  
+B) $b = 0$  
+C) $a = 1$  
+D) $b = 1$  
+E) $a = b$
+
+<details>
+<summary>Ver solución</summary>
+
+**Paso a paso:**
+
+- Si $a^b = 0$ es porque la base es 0. No hay ningún otro valor que al elevarlo a una potencia dé exactamente 0.
+- Si $b = 0$, entonces el resultado es 1 (no 0), por lo tanto, B es falsa.
+- Las demás no necesariamente implican que el resultado sea 0.
+
+✅ **Alternativa correcta: A**
+
+</details>
