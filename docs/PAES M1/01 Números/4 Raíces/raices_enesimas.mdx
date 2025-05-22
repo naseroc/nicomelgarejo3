@@ -1,0 +1,332 @@
+---
+title: Raíces enésimas
+sidebar_label: Raíces enésimas
+slug: /raices-enesimas
+---
+
+## Información Temario
+
+Este resumen corresponde al Eje Temático _Números_ en la unidad temática _Raíces enésimas_ la que se describe como:
+
+- Descomposición y propiedades de las raíces enésimas.
+- Relación entre potencias y raíces.
+- Problemas que involucren raíces enésimas en diversos contextos.
+## Video resumen
+<div className="video-container">
+  <iframe
+    width="100%"
+    height="400"
+    src="https://www.youtube.com/embed/SKxvCoYIFTc"
+    title="Video introductorio sobre raíces enésimas"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## ¿Qué es una raíz enésima?
+
+<div className="definition-box">
+  <strong>Definición:</strong> Sea $n$ un número natural mayor que $1$ y $a$ un número real. Si $x^n=a$, entonces $x$ es la raíz enésima de $a$:
+  $$
+  x^n = a \Leftrightarrow \sqrt[n]{a} = x
+  $$
+  La cantidad $a$ se denomina cantidad subradical y $n$ es el índice de la raíz.
+</div>
+
+En otras palabras, para calcular $\sqrt[n]{a}$ se debe encontrar un número $x$ que elevado a $n$ dé como resultado $a$.
+
+¿La raíz enésima de un número real siempre es un número real? La respuesta es negativa, ya que su existencia en el conjunto de los números reales depende del valor que tomen la cantidad subradical y el índice de la raíz. En términos generales se cumple lo siguiente:
+
+- Si $a$ es un número positivo y $n$ es par, entonces $\sqrt[n]{-a}$ **NO** es un número real.
+- Si $a$ es un número positivo y $n$ es par, entonces $\sqrt[n]{a}$  es un número real positivo.
+- Si $a$ es un número positivo y $n$ es impar, entonces $\sqrt[n]{a}$  y $\sqrt[n]{-a}$ son números reales.
+
+Cuando el índice de la raíz es $2$, el índice no se escribe y se deja tácito, es decir, la raíz cuadrada del número real  $a$  es $\sqrt{a}$  y no  $\sqrt[2]{a}$.
+
+## Raíces enésimas y potencias de exponente racional
+
+Considera que $n$ es un número natural mayor que $1$, $m$ es un número entero y $a$ es un número real. En términos generales, la interpretación de una potencia de base $a$ y exponente racional $\frac{m}{n}$ es la raíz enésima de la base $a$ elevada a $m$, es decir:
+
+$$
+a^{\frac{m}{n}} = \sqrt[n]{a^m}
+$$
+
+Dado que las raíces enésimas son potencias de exponente racional, las propiedades de la multiplicación y división de potencias permiten demostrar las propiedades de las raíces que se mencionan a continuación.
+
+## Propiedades de las raíces enésimas
+
+Cuando las raíces enésimas involucradas en una operación se encuentran definidas en los números reales, es posible aplicar las siguientes propiedades:
+
+### Multiplicación de raíces de igual índice
+
+$$
+\sqrt[n]{a} \cdot \sqrt[n]{b} = \sqrt[n]{a \cdot b}
+$$
+
+### División de raíces de igual índice
+
+$$
+\sqrt[n]{a} : \sqrt[n]{b} = \sqrt[n]{a : b}
+$$
+
+### Introducción y extracción de un término a una raíz
+
+$$
+\sqrt[n]{a^n \cdot b} = a \sqrt[n]{b}
+$$
+
+### Raíz de una raíz
+
+$$
+\sqrt[m]{\sqrt[n]{a}} = \sqrt[m \cdot n]{a}
+$$
+
+### Amplificación y simplificación de una raíz
+
+$$
+\sqrt[n]{a^m} = \sqrt[n \cdot r]{a^{m \cdot r}}
+$$
+
+<div className="definition-box">
+  <strong>Propiedad:</strong><br />
+  Si $n$ es un número natural impar mayor que 2 y $a \in \mathbb{R}$:<br />
+  $$
+  \sqrt[n]{a^n} = (\sqrt[n]{a})^n = a
+  $$
+  Si $n$ es un número natural par mayor o igual que 2 y $a \in \mathbb{R}$:<br />
+  $$
+  \sqrt[n]{a^n} = (\sqrt[n]{a})^n = |a|
+  $$
+</div>
+
+> Nota: **NO** existe una propiedad que haga referencia a la adición o sustracción de raíces enésimas:
+>
+> $$
+> \sqrt[n]{a \pm b} \neq \sqrt[n]{a} \pm \sqrt[n]{b}
+> $$
+
+<div class="image-container">
+  <img width = "200px" src="https://files.nicomelgarejo.com/dont_kill_me.png" alt="Resumen gráfico" />
+</div>
+
+## Racionalización
+
+En términos generales, racionalizar es el proceso que permite encontrar una expresión equivalente a una expresión que contiene una o más raíces irracionales en su denominador, de manera que la nueva expresión equivalente no contenga raíces en el denominador. Se destacan tres casos:
+
+**Caso 1:**
+
+$$
+\dfrac{a}{\sqrt{b}} = \dfrac{a \sqrt{b}}{b}
+$$
+
+**Caso 2:**
+
+$$
+\dfrac{a}{\sqrt[m]{b^n}} = \dfrac{a \sqrt[m]{b^{m-n}}}{b}
+$$
+
+**Caso 3:**
+
+$$
+\dfrac{a}{\sqrt{b}+\sqrt{c}} = \dfrac{a(\sqrt{b} - \sqrt{c})}{b - c}, \quad
+\dfrac{a}{\sqrt{b}-\sqrt{c}} = \dfrac{a(\sqrt{b} + \sqrt{c})}{b - c}
+$$
+
+**Ejemplo Caso 1:**  
+$$
+\dfrac{10}{\sqrt{5}} = \dfrac{10 \sqrt{5}}{5} = 2\sqrt{5}
+$$
+
+**Ejemplo Caso 2:**  
+$$
+\dfrac{2}{\sqrt[5]{2^3}} = \sqrt[5]{4}
+$$
+
+**Ejemplo Caso 3:**  
+$$
+\dfrac{6}{\sqrt{8}+\sqrt{5}} = 2\sqrt{8} - 2\sqrt{5}
+$$
+
+## Relaciones de orden en las raíces enésimas
+
+### Orden de raíces con índices iguales
+
+Ordena de menor a mayor los números $\sqrt{7}$, $3\sqrt{6}$, $5\sqrt{3}$ y $2\sqrt{5}$:
+
+- $3\sqrt{6} = \sqrt{54}$
+- $5\sqrt{3} = \sqrt{75}$
+- $2\sqrt{5} = \sqrt{20}$
+
+Entonces:  
+$\sqrt{7} < 2\sqrt{5} < 3\sqrt{6} < 5\sqrt{3}$
+
+### Orden de raíces con índices distintos
+
+Ejemplo: Compara $\sqrt{3}$ y $\sqrt[3]{5}$
+
+- $\sqrt{3} = \sqrt[6]{27}$
+- $\sqrt[3]{5} = \sqrt[6]{25}$
+
+Conclusión:  
+$\sqrt[3]{5} < \sqrt{3}$
+
+
+## Ejercicios de práctica
+
+
+### Ejercicio 1
+
+**Si $a$, $b$, $n$ y $p$ son números reales positivos, entonces $\sqrt[b]{a^n}\cdot \sqrt[n]{p^b}$ es igual a:**
+
+A) $ap$  
+B) $(ap)^{\frac{n^2+b^2}{nb}}$  
+C) $\sqrt[bn]{a^{n^2} p^{b^2}}$  
+D) $\sqrt[bn]{(ap)^{n+b}}$  
+E) Ninguna de las expresiones anteriores.
+
+<details>
+<summary>Ver solución</summary>
+
+Igualamos los índices de ambas raíces. Para ello, expresamos ambas como raíces de índice $bn$:
+
+$$
+\sqrt[b]{a^n} = \sqrt[bn]{(a^n)^n} = \sqrt[bn]{a^{n^2}}, \quad
+\sqrt[n]{p^b} = \sqrt[bn]{(p^b)^b} = \sqrt[bn]{p^{b^2}}
+$$
+
+Multiplicamos las raíces:
+
+$$
+\sqrt[bn]{a^{n^2}} \cdot \sqrt[bn]{p^{b^2}} = \sqrt[bn]{a^{n^2} \cdot p^{b^2}} = \sqrt[bn]{a^{n^2}p^{b^2}}
+$$
+
+**Respuesta correcta: C**
+</details>
+
+### Ejercicio 2
+
+**$\sqrt{(-4)^{-2}}=$**
+
+A) $\sqrt{8}$  
+B) $-\dfrac{1}{4}$  
+C) $\dfrac{1}{4}$  
+D) $-4$  
+E) $4$
+
+<details>
+<summary>Ver solución</summary>
+$$
+(-4)^{-2} = \frac{1}{(-4)^2} = \frac{1}{16}, \quad \sqrt{\frac{1}{16}} = \frac{1}{4}
+$$
+
+**Respuesta correcta: C**
+</details>
+
+### Ejercicio 3
+
+**Si $H=\sqrt{x+\sqrt{2x-1}}+\sqrt{x-\sqrt{2x-1}}$, con $x\geq1$, ¿cuál de las siguientes expresiones es igual a $H^2$?**
+
+A) $2x$  
+B) $4x-2$  
+C) $3x-1$  
+D) $2x+2\sqrt{x^2-2x-1}$  
+E) $2x+\sqrt{x^2-2x-1}$
+
+<details>
+<summary>Ver solución</summary>
+Sea:
+
+$$
+H = \sqrt{x + \sqrt{2x-1}} + \sqrt{x - \sqrt{2x-1}}
+$$
+
+Elevamos al cuadrado:
+
+$$
+H^2 = (a + b)^2 = a^2 + 2ab + b^2
+$$
+
+Donde:
+
+- $a = \sqrt{x + \sqrt{2x-1}}$
+- $b = \sqrt{x - \sqrt{2x-1}}$
+
+Entonces:
+
+$$
+a^2 + b^2 = x + \sqrt{2x - 1} + x - \sqrt{2x - 1} = 2x
+$$
+
+$$
+2ab = 2 \cdot \sqrt{x + \sqrt{2x - 1}} \cdot \sqrt{x - \sqrt{2x - 1}} = 2 \cdot \sqrt{x^2 - (2x - 1)} = 2\sqrt{x^2 - 2x + 1} = 2(x - 1)
+$$
+
+Por lo tanto:
+
+$$
+H^2 = 2x + 2(x - 1) = 4x - 2
+$$
+
+**Respuesta correcta: B**
+</details>
+
+### Ejercicio 4
+
+**$(\sqrt{5+2\sqrt{6}}+\sqrt{5-2\sqrt{6}})^2=$**
+
+A) $10\sqrt{6}$  
+B) $10+4\sqrt{6}$  
+C) $10$  
+D) $24$  
+E) $12$
+
+<details>
+<summary>Ver solución</summary>
+Sea:
+
+$$
+a = \sqrt{5+2\sqrt{6}}, \quad b = \sqrt{5-2\sqrt{6}}, \quad (a + b)^2 = a^2 + 2ab + b^2
+$$
+
+Calculamos:
+
+$$
+a^2 = 5 + 2\sqrt{6}, \quad b^2 = 5 - 2\sqrt{6} \Rightarrow a^2 + b^2 = 10
+$$
+
+$$
+ab = \sqrt{(5 + 2\sqrt{6})(5 - 2\sqrt{6})} = \sqrt{25 - 24} = \sqrt{1} = 1
+$$
+
+Entonces:
+
+$$
+(a + b)^2 = 10 + 2 \cdot 1 = 12
+$$
+
+**Respuesta correcta: E**
+</details>
+
+### Ejercicio 5
+
+**Si $p$ y $q$ son números reales tal que $p < q$, ¿cuál de las siguientes afirmaciones es siempre verdadera?**
+
+A) $\sqrt{p^2-q^2}=p-q$  
+B) $\sqrt[3]{p-q}$ no es un número real.  
+C) $\sqrt{p}+\sqrt{q}=\sqrt{p+q}$  
+D) $\sqrt{-p-q}$ no es un número real.  
+E) $\sqrt[3]{p} < \sqrt[3]{q}$
+
+<details>
+<summary>Ver solución</summary>
+Analicemos cada alternativa:
+
+- A) $\sqrt{p^2 - q^2} = p - q$ no es cierta para todos los valores.
+- B) $\sqrt[3]{p - q}$ sí es un número real (la raíz cúbica está definida para todos los reales).
+- C) $\sqrt{p} + \sqrt{q} = \sqrt{p + q}$ no es cierta salvo casos particulares.
+- D) $\sqrt{-p - q}$ puede ser real si $-p - q \geq 0$, pero eso no se garantiza.
+- E) $\sqrt[3]{p} < \sqrt[3]{q}$ es **siempre** verdadera ya que la función $f(x) = \sqrt[3]{x}$ es estrictamente creciente.
+
+**Respuesta correcta: E**
+</details>
