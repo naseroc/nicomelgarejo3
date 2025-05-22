@@ -72,6 +72,7 @@ const config = {
   ],
 
   themeConfig: {
+    favicon: '/img/favicon.ico',
     metadata: [
       { name: 'keywords', content: 'educación, tecnología, innovación' },
       { name: 'twitter:card', content: 'summary_large_image' },
