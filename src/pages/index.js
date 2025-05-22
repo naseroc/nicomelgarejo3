@@ -32,7 +32,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Libro Gratuito PAES - ⏰ Mejora tu puntaje en 5 minutos
+            🔥 Libro PAES Gratis 🔥
           </Link>
         </div>
       </div>
