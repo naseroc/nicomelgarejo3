@@ -41,3 +41,18 @@ programacion:
 tecnologia:
   label: Tecnología
   description: "Desarrollos tecnológicos, herramientas y plataformas que uso para crear contenido educativo."
+
+
+
+diseño instruccional:
+  label: Diseño Instruccional
+  description: Teorías, modelos y experiencias aplicadas en la creación de procesos formativos.
+
+addie:
+  label: ADDIE
+  description: Enfoque de diseño instruccional basado en las fases de análisis, diseño, desarrollo, implementación y evaluación.
+
+
+ticlass:
+  label: TIClass
+  description: Iniciativa EdTech dedicada al diseño de experiencias educativas digitales desde 2016.
