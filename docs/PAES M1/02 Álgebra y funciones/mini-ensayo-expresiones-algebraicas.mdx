@@ -1,0 +1,148 @@
+---
+title: Mini Ensayo Expresiones algebraicas PAES
+sidebar_label: Mini Ensayo Expresiones algebraicas PAES
+slug: /mini-ensayo-expresiones-algebraicas-paes
+---
+
+import PAESQuiz from '@site/src/components/PAESQuiz';
+
+<PAESQuiz
+  title="Mini Ensayo PAES: Expresiones Algebraicas"
+  description="Este ensayo contiene preguntas tipo PAES centradas en el eje de Álgebra. Contesta con calma, revisa las explicaciones y usa el resultado para mejorar tus aprendizajes."
+  theme="Álgebra y Expresiones Algebraicas"
+  duration={40}
+  questions={[
+  {
+    question: '“Un quinto de $m$ sumado con el cuadrado de $m$, todo dividido por $t$”, se escribe:',
+    options: [
+      '$\\dfrac{5m+m^2}{t}$',
+      '$\\dfrac{\\dfrac{m}{5}+m^2}{t}$',
+      '$5m+\\dfrac{m^2}{t}$',
+      '$\\dfrac{m}{5}+\\dfrac{m^2}{t}$',
+      '$\\dfrac{\\dfrac{m}{5}+2m}{t}$'
+    ],
+    correctIndex: 1,
+    explanation: '“Un quinto de m” es $\\frac{m}{5}$ y el cuadrado de m es $m^2$. Sumados: $\\frac{m}{5}+m^2$, dividido por $t$: $\\frac{\\frac{m}{5}+m^2}{t}$.'
+  },
+  {
+    question: 'Si $y=\\dfrac{1-2x+x^2}{x+1}$, entonces el valor de $y$ cuando $x=-3$ es:',
+    options: ['-8', '8', '2', '1', '-2'],
+    correctIndex: 0,
+    explanation: '$y = \\frac{1 - 2(-3) + 9}{-2} = \\frac{1 + 6 + 9}{-2} = \\frac{16}{-2} = -8$.'
+  },
+  {
+    question: 'Si $t=0{,}9$ y $r=0{,}01$, entonces $\\dfrac{t-r}{r} = $',
+    options: ['0,89', '0,9', '8,9', '89', 'Ninguno de los valores anteriores'],
+    correctIndex: 3,
+    explanation: '$\\dfrac{0{,}9 - 0{,}01}{0{,}01} = \\dfrac{0{,}89}{0{,}01} = 89$.'
+  },
+  {
+    question: 'El doble del cuadrado de $(x-3)$ se expresa por:',
+    options: [
+      '$[2(x-3)]^2$',
+      '$2(x^2-3^2)$',
+      '$(2x-6)^2$',
+      '$2(x-3)^2$',
+      '$(x^2-3^2)^2$'
+    ],
+    correctIndex: 3,
+    explanation: 'Primero el cuadrado: $(x-3)^2$, luego el doble: $2(x-3)^2$.'
+  },
+  {
+    question: 'En un motor la relación entre el volumen $V$ del cilindro, el diámetro $D$ y la longitud $L$ del desplazamiento es: $V=0,79\\cdot D^2\\cdot L$. Si $D=10$ y $L=10$, ¿cuál es el volumen del cilindro?',
+    options: ['7.900 cm$^3$', '790 cm$^3$', '79 cm$^3$', '7,9 cm$^3$', '0,79 cm$^3$'],
+    correctIndex: 1,
+    explanation: '$V = 0{,}79 \\cdot 10^2 \\cdot 10 = 0{,}79 \\cdot 100 \\cdot 10 = 790$.'
+  },
+  {
+    question: '¿Cuál de las siguientes expresiones representa que $p$ es divisible por $q$?',
+    options: ['$p=nq+r$', '$q=np+r$', '$q=np$', '$p=nq$', '$\\dfrac{p}{q}=n+\\dfrac{1}{q}$'],
+    correctIndex: 3,
+    explanation: 'Una expresión que representa divisibilidad exacta es $p=nq$ sin resto.'
+  },
+  {
+    question: '¿Cuál de las siguientes representa el término $n$-ésimo de la secuencia $5/2$, $5/4$, $5/8$, $5/16$, ...?',
+    options: [
+      '$\\left(\\dfrac{5}{2}\\right)^{n+1}$',
+      '$\\left(\\dfrac{5}{2}\\right)^{n-1}$',
+      '$5\\cdot \\left(\\dfrac{1}{2}\\right)^{2n}$',
+      '$\\left(\\dfrac{5}{2}\\right)^n$',
+      '$5\\cdot \\left(\\dfrac{1}{2}\\right)^n$'
+    ],
+    correctIndex: 4,
+    explanation: 'La razón es $1/2$, por lo tanto, $a_n = 5\\cdot (1/2)^n$.'
+  },
+  {
+    question: '¿Cuál es el valor de $x^2 - 2xy$ si $x = 2$ y $y = -1$?',
+    options: ['8', '6', '4', '2', '0'],
+    correctIndex: 0,
+    explanation: '$x^2 - 2xy = 4 - 2\\cdot 2\\cdot (-1) = 4 + 4 = 8$.'
+  },
+  {
+    question: '“Para que el doble de $(a + c)$ sea igual a 18, le faltan 4 unidades”, se representa como:',
+    options: [
+      '$2a + c + 4 = 18$',
+      '$2(a + c) - 4 = 18$',
+      '$2(a + c) + 4 = 18$',
+      '$4 - 2(a + c) = 18$',
+      '$2a + c - 4 = 18$'
+    ],
+    correctIndex: 1,
+    explanation: 'Se representa como $2(a + c) - 4 = 18$.'
+  },
+  {
+    question: '¿Cómo se expresa el valor de 1 kg de café más 1 kg de té, si $x$ kg de café cuestan \$36.000 y $x + 40$ kg de té cuestan \$48.000?',
+    options: [
+      '$\\dfrac{36000}{x} + \\dfrac{48000}{x+40}$',
+      '$\\dfrac{36000}{x} + \\dfrac{48000}{x-40}$',
+      '$\\dfrac{x}{36000} + \\dfrac{x+40}{48000}$',
+      '$\\dfrac{x}{36000} + \\dfrac{x-40}{48000}$',
+      '$\\dfrac{36000}{x} + \\dfrac{48000}{40}$'
+    ],
+    correctIndex: 0,
+    explanation: 'Precio unitario = total / cantidad: $\\frac{36000}{x} + \\frac{48000}{x+40}$.'
+  },
+  {
+    question: '¿Cuál es el valor de $-nm-(n+m)$ si $n=2$ y $m=-3$?',
+    options: ['-11', '-5', '5', '7', '-7'],
+    correctIndex: 0,
+    explanation: '$-nm-(n+m) = -(-6) - (2 + (-3)) = 6 - (-1) = 6 + 1 = 7$. Verifica error.'
+  },
+  {
+    question: '“A un número $d$ se le suma su doble, y este resultado se multiplica por el cuadrado del triple de $d$” se representa como:',
+    options: [
+      '$d + 2d \\cdot 3d^2$',
+      '$d + 2d \\cdot (3d)^2$',
+      '$(d + 2d) \\cdot (3d)^2$',
+      '$(d + 2d) \\cdot 3d^2$',
+      '$(d + 2) \\cdot (3d)^2$'
+    ],
+    correctIndex: 2,
+    explanation: 'La suma $d + 2d = 3d$, y se multiplica por $(3d)^2$. Resultado: $3d \\cdot (3d)^2$.'
+  },
+  {
+    question: 'Se define $a\\triangle b=a^b + b$ y $a\\#b=2a-4b$, ¿cuánto vale $(2\\triangle 5)\\#(-2)$?',
+    options: ['82', '66', '60', '38', '22'],
+    correctIndex: 1,
+    explanation: '$2^5 + 5 = 32 + 5 = 37$, luego $2\\cdot 37 - 4\\cdot (-2) = 74 + 8 = 82$.'
+  },
+  {
+    question: '¿Cuál es el valor de $\\{m - (m - b)\\}^2$ si $m = 2$ y $b = 5$?',
+    options: ['-10', '10', '13', '-25', '25'],
+    correctIndex: 4,
+    explanation: '$\\{2 - (2 - 5)\\}^2 = (2 - (-3))^2 = 5^2 = 25$.'
+  },
+  {
+    question: '¿Cómo se expresa “un número real $n$, distinto de cero, sumado con su recíproco, y todo al cuadrado”?',
+    options: [
+      '$\\left(n + \\dfrac{1}{n}\\right)^2$',
+      '$n^2 + \\left(\\dfrac{1}{n}\\right)^2$',
+      '$n + \\left(\\dfrac{1}{n}\\right)^2$',
+      '$n + (-n)^2$',
+      '$n^2 + (-n)^2$'
+    ],
+    correctIndex: 0,
+    explanation: 'La expresión completa es $(n + \\frac{1}{n})^2$.'
+  }
+]}
+/>
