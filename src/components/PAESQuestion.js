@@ -1,9 +1,17 @@
-// src/components/PAESQuestion.js
 import React, { useState } from 'react';
 import 'katex/dist/katex.min.css';
-import Latex from 'react-latex-next';
+import KaTeXRenderer from './KaTeXRenderer';
 
-
+// Función para separar texto y fórmulas en el enunciado
+function renderQuestionWithMath(question) {
+  const parts = question.split(/(\$[^$]+\$)/g);
+  return parts.map((part, idx) => {
+    if (part.startsWith('$') && part.endsWith('$')) {
+      return <KaTeXRenderer key={idx} math={part.slice(1, -1)} />;
+    }
+    return <span key={idx}>{part}</span>;
+  });
+}
 
 export default function PAESQuestion({ question, options, correctIndex, explanation, showResults }) {
   const [selected, setSelected] = useState(null);
@@ -13,7 +21,7 @@ export default function PAESQuestion({ question, options, correctIndex, explanat
 
   return (
     <div className="paes-question">
-      <p><strong><Latex>{question}</Latex></strong></p>
+      <p><strong>{renderQuestionWithMath(question)}</strong></p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
         {options.map((opt, idx) => (
           <button
@@ -25,19 +33,19 @@ export default function PAESQuestion({ question, options, correctIndex, explanat
               borderRadius: '5px',
               backgroundColor:
                 selected === idx
-                    ? showResults
-                        ? idx === correctIndex
-                            ? '#d4edda'
-                            : '#f8d7da'
-                        : '#d3d3d3'
-                    : '#f0f0f0',
+                  ? showResults
+                    ? idx === correctIndex
+                      ? '#d4edda'
+                      : '#f8d7da'
+                    : '#d3d3d3'
+                  : '#f0f0f0',
               color: '#333',
               cursor: 'pointer',
               textAlign: 'left',
             }}
           >
             <>
-            {String.fromCharCode(65 + idx)}) <Latex>{opt}</Latex>
+              {String.fromCharCode(65 + idx)}) <KaTeXRenderer math={opt.replace(/\$/g, '')} />
             </>
           </button>
         ))}
@@ -48,7 +56,7 @@ export default function PAESQuestion({ question, options, correctIndex, explanat
             '✅ ¡Respuesta correcta!'
           ) : (
             <>
-              ❌ Respuesta incorrecta. <Latex>{explanation}</Latex>
+              ❌ Respuesta incorrecta. <KaTeXRenderer math={explanation.replace(/\$/g, '')} />
             </>
           )}
         </p>
