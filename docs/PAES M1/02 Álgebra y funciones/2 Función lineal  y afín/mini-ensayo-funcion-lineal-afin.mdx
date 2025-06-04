@@ -1,0 +1,130 @@
+---
+title: Mini Ensayo Función Lineal y Afín - PAES M1
+sidebar_label: 🧠 Mini Ensayo Función Lineal y Afín
+slug: /mini-ensayo-funcion-lineal-afin-paes
+sidebar_position: 3
+description: "Mini ensayo de PAES M1 sobre funciones lineales y afines. Contiene preguntas tipo PAES centradas en este eje."
+keywords: ["PAES", "Mini Ensayo", "Funciones lineales", "Matemática", "Funciones", "Ejercicios"]
+---
+
+import PAESQuiz from '@site/src/components/PAESQuiz';
+
+<PAESQuiz
+  title="Mini Ensayo PAES M1: Función Lineal y Afín"
+  description="Este ensayo contiene preguntas tipo PAES centradas en funciones lineales y afines. Contesta con calma, revisa las explicaciones y usa el resultado para mejorar tus aprendizajes."
+  theme="Funciones lineales y afines"
+  duration={30}
+  questions={[
+    {
+      question: "$g(x)$ representa los gastos de una persona. Si $g(x) = 3a - 2x$, donde $a$ es un número real fijo mayor que cero, entonces cuando $x$ varía entre $\\dfrac{a}{4}$ y $\\dfrac{a}{2}$, el gasto varía entre:",
+      options: [
+        "$2a$ y $a$",
+        "$\\dfrac{5}{2}a$ y $a$",
+        "$3a$ y $2a$",
+        "$3a$ y $\\dfrac{5}{2}a$",
+        "$\\dfrac{5}{2}a$ y $2a$"
+      ],
+      correctIndex: 4,
+      explanation: "Evaluamos los extremos: $g\\left(\\dfrac{a}{4}\\right) = 3a - \\dfrac{a}{2} = \\dfrac{5}{2}a$ y $g\\left(\\dfrac{a}{2}\\right) = 3a - a = 2a$. El gasto varía entre esos valores."
+    },
+    {
+    question: "En un supermercado el precio de costo de un kilogramo de pan es de $\$600$ y lo venden en $\$820$; las conservas de mariscos tienen un costo de $\$800$ y las vende en $\$1.060$. Si la política de asignación de precios del supermercado es lineal, ¿cuál es el precio de venta de un kilogramo de arroz cuyo costo es de $\$400$? (DEMRE 2005)",
+    options: ["$\$600$", "$\$580$", "$\$547$", "$\$537$", "$\$530$"],
+    correctIndex: 4,
+    explanation: "La relación entre precio de costo ($x$) y precio de venta ($y$) es lineal. Usamos los puntos (600, 820) y (800, 1060). La pendiente es $\\frac{1060 - 820}{800 - 600} = 1{,}2$. Entonces: $y - 820 = 1{,}2(x - 600)$. Evaluamos en $x = 400$: $y = 820 + 1{,}2(400 - 600) = 820 - 240 = 580$."
+    },
+    {
+      question: "La función $f(x) = 2x + 3$ es una función lineal. ¿Cuál es su pendiente?",
+      options: [
+        "2",
+        "3",
+        "5",
+        "6",
+        "Ninguna de las anteriores"
+      ],
+      correctIndex: 0,
+      explanation: "En la forma $f(x) = mx + b$, la pendiente $m$ es el coeficiente de $x$. Aquí, $m = 2$."
+    },
+    {
+      question: "Si la función $f(x) = mx + b$ tiene una pendiente de 4 y pasa por el punto (1, 2), ¿cuál es el valor de $b$?",
+      options: [
+        "2",
+        "4",
+        "-2",
+        "-4",
+        "Ninguna de las anteriores"
+      ],
+      correctIndex: 0,
+      explanation: "Usamos el punto (1, 2): $2 = 4(1) + b \\Rightarrow b = 2 - 4 = -2$. Por lo tanto, la respuesta correcta es -2."
+    },
+    {
+      question: "La relación entre las temperaturas Fahrenheit y Celsius es lineal. Si se sabe que 32$^\\circ$ F corresponden a 0$^\\circ$ C y 212$^\\circ$ F corresponde a 100$^\\circ$ C, entonces ¿cuál es la temperatura en grados Celsius que corresponde a 55$^\\circ$ F aproximadamente? (DEMRE 2005)",
+      options: [
+        "$-21^\\circ$ C",
+        "$-12{,}7^\\circ$ C",
+        "$12{,}7^\\circ$ C",
+        "$23^\\circ$ C",
+        "$25{,}9^\\circ$ C"
+      ],
+      correctIndex: 2,
+      explanation: "La relación es lineal: $C = \\frac{5}{9}(F - 32)$. Para $F = 55$: $C = \\frac{5}{9}(55 - 32) = \\frac{5}{9} \\cdot 23 \\approx 12{,}7^\\circ$ C."
+    },
+    {
+      question: "El nivel de agua en un estanque es de $12$ m y baja $0,5$ m cada semana. ¿Cuál de las siguientes funciones representa la situación descrita relacionando el nivel de agua $y$ con el número de semanas $x$? (DEMRE 2006)",
+      options: [
+        "$y=-12+0{,}5x$",
+        "$y=-0{,}5+12x$",
+        "$y=12+0{,}5x$",
+        "$y=12-3{,}5x$",
+        "$y=12-0{,}5x$"
+      ],
+      correctIndex: 4,
+      explanation: "La función es lineal decreciente, con valor inicial $y = 12$ y pendiente $-0{,}5$. Por lo tanto: $y = 12 - 0{,}5x$."
+    },
+    {
+      question: "Sea $f$ una función en los números reales, definida por $f(x) = tx + 1$ y $f(-2) = 5$. ¿Cuál es el valor de $t$? (DEMRE 2008)",
+      options: [
+        "$-3$",
+        "$-2$",
+        "3",
+        "2",
+        "$\\dfrac{3}{2}$"
+      ],
+      correctIndex: 1,
+      explanation: "Usamos la condición: $f(-2) = t(-2) + 1 = 5$. Entonces $-2t + 1 = 5 \\Rightarrow -2t = 4 \\Rightarrow t = -2$. La alternativa correcta es $-2$."
+    },
+    {
+      question: "Una empresa de arriendo de autos cobra $\$70.000$ cuando su vehículo A recorre 50 km y $\$120.000$ cuando su vehículo A recorre 100 km. El cobro que realiza la empresa para el vehículo A, en términos de los kilómetros recorridos, se modela a través de una función de la forma $f(x) = mx + n$. ¿Cuál será el cobro del vehículo A cuando recorra 200 km? (DEMRE 2021)",
+      options: ["$\$200.000$", "$\$220.000$", "$\$240.000$", "$\$280.000$"],
+      correctIndex: 2,
+      explanation: "Se tienen los puntos (50, 70000) y (100, 120000). Pendiente: $m = \\frac{120000 - 70000}{100 - 50} = 1000$. Usamos: $f(x) = 1000x + n$. Sustituimos en (50, 70000): $70000 = 1000(50) + n \\Rightarrow n = 20000$. Entonces: $f(200) = 1000 \\cdot 200 + 20000 = 240000$."
+    },
+    {
+      question: "Una empresa de mantención de equipos eléctricos cobra un costo fijo mensual de $\$200.000$ y $\$5.000$ por cada visita que su técnico realice en el mes. Si una fábrica contrata los servicios de esta empresa, ¿cuál de las siguientes funciones modela el cobro total, en pesos, del servicio para $x$ visitas en el mes? (DEMRE 2020)",
+      options: [
+        "$f(x) = 205.000x$",
+        "$g(x) = 200.000 - 5.000x$",
+        "$h(x) = 200.000x + 5.000$",
+        "$p(x) = 5.000x + 200.000$",
+        "$q(x) = 5.000x - 200.000$"
+      ],
+      correctIndex: 3,
+      explanation: "El cobro total es la suma del costo fijo $\$200.000$ más $\$5.000$ por cada visita: $f(x) = 200000 + 5000x = 5.000x + 200.000$."
+    },
+
+    {
+      question: "En un cuadrado, la mitad de la medida de la diagonal es $p$. ¿Cuál de las siguientes funciones describe el perímetro del cuadrado en función de $p$? (DEMRE 2019)",
+      options: [
+        "$f(p) = 4\\sqrt{2}p$",
+        "$g(p) = 2\\sqrt{2}p$",
+        "$h(p) = \\sqrt{2}p$",
+        "$r(p) = 4p$",
+        "$q(p) = 2p$"
+      ],
+      correctIndex: 0,
+      explanation: "La diagonal completa mide $2p$. En un cuadrado, la diagonal es $d = l\\sqrt{2} \\Rightarrow l = \\frac{2p}{\\sqrt{2}} = p\\sqrt{2}$. El perímetro es $4l = 4p\\sqrt{2}$."
+    }
+
+    
+  ]}
+/>
