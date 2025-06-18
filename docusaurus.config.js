@@ -151,10 +151,10 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
     announcementBar: {
-      id: 'nueva-version', // Un id único para este anuncio
+      id: 'wsp-comunidad', // Un id único para este anuncio
       content:
-        '🎉 ¡Nuevo Mini Ensayo Expresiones Algebraicas disponible! Practica con el <a href="/docs/mini-ensayo-expresiones-algebraicas-paes" target="_blank">MINI ENSAYO</a>.',
-      backgroundColor: '#6a0dad', // Color de fondo
+        '🎉 ¡Únete a la Comunidad de Estudio  <a href="https://chat.whatsapp.com/EozwZZpsHt3JFI8qyTgyr1" target="_blank">de WHATSAPP</a>.',
+      backgroundColor: '#320061', // Color de fondo
       textColor: '#f4f4f4',       // Color del texto
       isCloseable: true,          // El usuario puede cerrarlo
     },
