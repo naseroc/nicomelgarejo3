@@ -3,7 +3,7 @@ import PAESQuestion from './PAESQuestion';
 
 export default function PAESQuiz({ title, description, theme, duration, questions }) {
   const [showResults, setShowResults] = useState(false);
-    const handleSubmit = () => {
+  const handleSubmit = () => {
     setShowResults(true);
   };
 
@@ -17,6 +17,15 @@ export default function PAESQuiz({ title, description, theme, duration, question
       {questions.map((q, index) => (
         <div key={index} className="paes-question-box">
           <h3>Pregunta {index + 1}</h3>
+          {q.imageUrl && (
+            <div style={{ textAlign: "center", margin: "1em 0" }}>
+              <img
+                src={q.imageUrl}
+                alt={q.imageAlt || `Imagen de la pregunta ${index + 1}`}
+                style={{ maxWidth: "100%", height: "auto" }}
+              />
+            </div>
+          )}
           <PAESQuestion
             question={q.question}
             options={q.options}

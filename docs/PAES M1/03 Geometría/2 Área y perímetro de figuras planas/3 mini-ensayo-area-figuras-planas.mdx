@@ -1,0 +1,159 @@
+---
+title: Mini Ensayo Área de Figuras Planas - PAES M1
+sidebar_label: 🧠 Mini Ensayo Área de Figuras Planas
+slug: /mini-ensayo-area-figuras-planas-paes
+sidebar_position: 4
+description: "Mini ensayo de PAES M1 con ejercicios sobre área de figuras planas."
+keywords: [PAES, Área, Figuras planas, Geometría, Ejercicios]
+---
+
+import PAESQuiz from '@site/src/components/PAESQuiz';
+
+<PAESQuiz
+  title="Mini Ensayo PAES M1: Área de Figuras Planas"
+  description="Contiene 10 ejercicios tipo PAES sobre áreas de figuras planas."
+  theme="Área de figuras planas"
+  duration={30}
+  questions={[
+    {
+      question: "Si la base de un triángulo mide $t$ y su altura mide $\\tfrac{t}{2}$, entonces ¿cuánto mide el lado de un cuadrado que tiene igual área que el triángulo? (DEMRE 2005)",
+      options: [
+        "$\\tfrac{t}{4}$",
+        "$\\tfrac{t}{2}\\sqrt{2}$",
+        "$t$",
+        "$\\tfrac{t}{2}$",
+        "$\\tfrac{t^2}{4}$"
+      ],
+      correctIndex: 1,
+      explanation: "Área triángulo = $\\tfrac{t\\cdot(t/2)}{2} = \\tfrac{t^2}{4}$, lado cuadrado $s=\\sqrt{t^2/4} = \\tfrac{t}{2}\\sqrt{2}$."
+    },
+    {
+      question: `En el plano de la figura se muestra el polígono ABCD, ¿cuál(es) de las siguientes afirmaciones es verdadera(s)? (DEMRE 2005) 
+      I) El perímetro del polígono es $8 \\sqrt{2}$ \n
+      II) Cada diagonal del polígono mide 4 \n
+      III) El área del polígono es $4 \\sqrt{2}$`,
+      imageUrl: "https://files.nicomelgarejo.com/p02ge22.png",
+      imageAlt: "Polígono ABCD",
+      options: [
+        "Solo I",
+        "Solo II",
+        "Solo I y II",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 2,
+      explanation: "El clavijero indica 'Solo I y II'."
+    },
+    {
+      question: "En la figura, el área del triángulo ABC es 90 cm² y AB ∥ DE. ¿Cuál es el área del trapecio ADEB? (DEMRE 2005)",
+      imageUrl: "https://files.nicomelgarejo.com/p03ge22.png",
+      imageAlt: "Trapecio ADEB",
+      options: [
+        "36 cm²",
+        "40 cm²",
+        "50 cm²",
+        "54 cm²",
+        "60 cm²"
+      ],
+      correctIndex: 4,
+      explanation: "El clavijero indica: 60 cm²."
+    },
+    {
+      question: `En la figura, se muestra un hexágono regular y sobre sus lados se construyen triángulos equiláteros. ¿Cuál(es) afirmación(es) es verdadera(s)? (DEMRE 2005)
+      	I) El área total de la nueva figura duplica al área del hexágono.\n
+		II) La suma de las áreas de los triángulos es igual al área del hexágono. \n
+		III) El perímetro de la nueva figura es el doble del perímetro del hexágono.`,
+      imageUrl: "https://files.nicomelgarejo.com/p04ge22.png",
+      imageAlt: "Hexágono con triángulos equiláteros",
+      options: [
+        "Solo III",
+        "Solo I y II",
+        "Solo I y III",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 2,
+      explanation: "El clavijero indica 'Solo I y III'."
+    },
+    {
+      question: "La figura está formada por 6 cuadrados congruentes de 30 cm de lado. El área de la región achurada mide: (DEMRE 2005)",
+      imageUrl: "https://files.nicomelgarejo.com/p05ge22.png",
+      imageAlt: "Figura con cuadrados",
+      options: [
+        "50 cm²",
+        "75 cm²",
+        "100 cm²",
+        "112,5 cm²",
+        "125 cm²"
+      ],
+      correctIndex: 3,
+      explanation: "Clavijero indica: 112,5 cm²."
+    },
+    {
+      question: "En los triángulos ABC y DEF se sabe que AC ∥ DF, AD=EB=4, GE=GD=8 y FG=6. ¿Cuál es el área del triángulo ABC? (DEMRE 2005)",
+      imageUrl: "https://files.nicomelgarejo.com/p06ge22.png",
+      imageAlt: "Triángulos ABC y DEF",
+      options: [
+        "180",
+        "120",
+        "108",
+        "72",
+        "54"
+      ],
+      correctIndex: 2,
+      explanation: "Clavijero indica: 108."
+    },
+    {
+      question: "El área de un rectángulo es $2x^2 + 2x - 24$. Si uno de sus lados mide $(x - 3)$, el otro lado mide: (DEMRE 2005)",
+      options: [
+        "$(x + 8)$",
+        "$2(x + 8)$",
+        "$2(x - 4)$",
+        "$2(x - 3)$",
+        "$2(x + 4)$"
+      ],
+      correctIndex: 0,
+      explanation: "Clavijero indica: (x + 8)."
+    },
+    {
+      question: "Si uno de los catetos de un triángulo rectángulo isósceles aumenta 20% y el otro disminuye 20%, ¿qué pasa con el área resultante respecto del área original? (DEMRE 2005)",
+      options: [
+        "Se mantiene igual.",
+        "Aumenta en un 4%.",
+        "Disminuye en un 4%.",
+        "Aumenta al doble.",
+        "Disminuye a la mitad."
+      ],
+      correctIndex: 2,
+      explanation: "Clavijero indica: Disminuye en un 4%."
+    },
+    {
+      question: "El largo de una piscina rectangular es el doble de su ancho. Se construyó una cerca separada 1 m de sus bordes y el área cercada es 40 m². ¿Cuál es el largo de la piscina? (DEMRE 2005)",
+      imageUrl: "https://files.nicomelgarejo.com/p10ge22.png",
+      imageAlt: "Piscina con cerca",
+      options: [
+        "3 m",
+        "6 m",
+        "12 m",
+        "√80 m",
+        "$\\tfrac{-3+\\sqrt{165}}{2}$ m"
+      ],
+      correctIndex: 1,
+      explanation: "Clavijero indica: 6 m."
+    },
+    {
+      question: "M es punto medio de la arista del cubo mostrado en la figura y la arista mide 2. ¿Cuál es el área del triángulo ABM? (DEMRE 2006)",
+      imageUrl: "https://files.nicomelgarejo.com/p11ge22.png",
+      imageAlt: "Cubo con triángulo ABM",
+      options: [
+        "2",
+        "$\\tfrac{\\sqrt{2}}{2}$",
+        "$\\sqrt{2}$",
+        "2√2",
+        "3√2"
+      ],
+      correctIndex: 2,
+      explanation: "Clavijero indica: √2."
+    }
+  ]}
+/>
