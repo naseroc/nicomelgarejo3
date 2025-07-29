@@ -1,0 +1,190 @@
+---
+title: "Raíces cuadradas"
+sidebar_label: "📝 Raíces cuadradas"
+slug: "/raices-cuadradas"
+sidebar_position: 1
+description: "Definición, propiedades, ejemplos y ejercicios sobre raíces cuadradas."
+keywords:
+  - raíces cuadradas
+  - álgebra
+  - matemáticas
+---
+# ¿Qué es una raíz cuadrada?
+
+## Clase de raices cuadradas?
+Puedes descargar la guía en este link: [Guía Raíces cuadradas](https://forms.gle/rjUwKogUih9gBYwD8)
+¿Quieres dominar las raíces cuadradas? Inscríbete gratis y recibe en tu correo un **cuadernillo exclusivo de 33 páginas** con teoría, ejemplos resueltos y ejercicios para practicar.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden"}}>
+  <iframe
+    src="https://www.youtube.com/embed/T__2iGWOCQI?si=LiGIR8sVCSdv3q6z"
+    title="YouTube video player"
+    style={{
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      border: 0
+    }}
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Definición de raíz cuadrada
+
+<div className="info-box">
+Sea $a$ un número real. Si $x^2 = a$, entonces $x$ es la raíz cuadrada de $a$:
+
+$$
+ x^2 = a \; \Leftrightarrow \; \sqrt{a} = x
+$$
+
+La cantidad $a$ se denomina cantidad subradical y 2 es el índice de la raíz. Cuando el índice de la raíz es 2, el índice no se escribe y se deja tácito, es decir, la raíz cuadrada del número real $a$ es $\sqrt{a}$ y no $\sqrt[2]{a}$.
+</div>
+
+En otras palabras, para calcular $\sqrt{a}$ se debe encontrar un número $x$ que elevado a 2 dé como resultado $a$.
+
+### Ejemplo 1
+
+¿Qué número $x$ elevado a 2 da como resultado 81? Como $9^2 = 9 \cdot 9 = 81$, entonces:
+
+$$
+\sqrt{81} = 9
+$$
+
+### Ejemplo 2
+
+¿Qué número $x$ elevado a 2 da como resultado 100? Como $10^2 = 10 \cdot 10 = 100$, entonces:
+
+$$
+\sqrt{100} = 10
+$$
+
+### Ejemplo 3
+
+¿Qué número $x$ elevado a 2 da como resultado 16? Como $4^2 = 4 \cdot 4 = 16$, entonces:
+
+$$
+\sqrt{16} = 4
+$$
+
+### Ejemplo 4
+
+¿Qué número $x$ elevado a 2 da como resultado -16? Sabemos que $4^2 = 16$ y que $(-4)^2 = 16$, por lo que no existe un número real $x$ que elevado a 2 dé como resultado -16. Un número negativo multiplicado una cantidad par de veces siempre da un resultado positivo. Se concluye que:
+
+$$
+\sqrt{-16}\text{ no existe en }\mathbb{R}.
+$$
+
+A partir de los ejemplos anteriores, ¿la raíz cuadrada de un número real siempre es un número real? La respuesta es negativa, ya que su existencia en $\mathbb{R}$ depende del valor de la cantidad subradical. En términos generales se cumple lo siguiente:
+
+- Si $a$ es un número positivo, entonces $\sqrt{-a}$ **NO** es un número real.
+
+## Propiedades de las raíces cuadradas
+
+Cuando las raíces cuadradas involucradas en una operación están definidas en los números reales, es posible aplicar las siguientes propiedades:
+
+### Multiplicación de raíces de igual índice
+
+$$
+\sqrt{a} \cdot \sqrt{b} = \sqrt{a \cdot b}, \quad a,b \in \mathbb{R}^+
+$$
+
+### División de raíces de igual índice
+
+$$
+\sqrt{a} : \sqrt{b} = \sqrt{a : b}, \quad a,b \in \mathbb{R}^+
+$$
+
+### Introducción y extracción de un término a una raíz
+
+$$
+\sqrt{a^2 \cdot b} = a\sqrt{b}, \quad a,b \in \mathbb{R}^+
+$$
+
+Un caso particular que se desprende de las propiedades anteriores es el valor de las expresiones $\sqrt{a^2}$ y $(\sqrt{a})^2$. Siempre que estas raíces están definidas en $\mathbb{R}$ se cumple que:
+
+<div className="info-box">
+$$
+\sqrt{a^2} = (\sqrt{a})^2 = |a|, \quad a \in \mathbb{R}
+$$
+</div>
+
+Note que **NO** existe una propiedad que haga referencia a la adición o sustracción de raíces cuadradas. La raíz cuadrada de una adición o sustracción **NO** equivale a la adición o sustracción de raíces:
+
+$$
+\sqrt{a \pm b} \neq \sqrt{a} \pm \sqrt{b}
+$$
+
+
+
+## Racionalización
+
+En términos generales, racionalizar es el proceso que permite encontrar una expresión **equivalente** a una que contiene raíces irracionales en el denominador, de modo que la nueva expresión no las tenga.
+
+**Caso 1**: Para $a \in \mathbb{R}$ y $b \in \mathbb{R}^+$:
+
+$$
+\frac{a}{\sqrt{b}} = \frac{a}{\sqrt{b}} \cdot \frac{\sqrt{b}}{\sqrt{b}} = \frac{a\sqrt{b}}{b}
+$$
+
+**Caso 2**: Para $a \in \mathbb{R}$, $b,c \in \mathbb{R}^+$ y $b \neq c$:
+
+$$
+\frac{a}{\sqrt{b} + \sqrt{c}} = \frac{a}{\sqrt{b} + \sqrt{c}} \cdot \frac{\sqrt{b} - \sqrt{c}}{\sqrt{b} - \sqrt{c}} = \frac{a(\sqrt{b} - \sqrt{c})}{b - c},
+$$
+
+$$
+\frac{a}{\sqrt{b} - \sqrt{c}} = \frac{a}{\sqrt{b} - \sqrt{c}} \cdot \frac{\sqrt{b} + \sqrt{c}}{\sqrt{b} + \sqrt{c}} = \frac{a(\sqrt{b} + \sqrt{c})}{b - c}.
+$$
+
+### Ejemplo Caso 1
+
+Amplificar $\dfrac{10}{\sqrt{5}}$ para que el denominador sea racional. Como $\sqrt{5} \cdot \sqrt{5} = 5$, amplificamos:
+
+$$
+\frac{10}{\sqrt{5}} = \frac{10}{\sqrt{5}} \cdot \frac{\sqrt{5}}{\sqrt{5}} = \frac{10\sqrt{5}}{5} = 2\sqrt{5}
+$$
+
+### Ejemplo Caso 2
+
+Racionalizar $\dfrac{6}{\sqrt{8} + \sqrt{5}}$. Usamos suma por diferencia:
+
+$$
+(\sqrt{8} + \sqrt{5})(\sqrt{8} - \sqrt{5}) = 8 - 5 = 3
+$$
+
+Por lo tanto:
+
+$$
+\frac{6}{\sqrt{8} + \sqrt{5}} = \frac{6}{\sqrt{8} + \sqrt{5}} \cdot \frac{\sqrt{8} - \sqrt{5}}{\sqrt{8} - \sqrt{5}} = 2(\sqrt{8} - \sqrt{5}) = 2\sqrt{8} - 2\sqrt{5}
+$$
+
+## Relaciones de orden en las raíces cuadradas
+
+Entre dos raíces cuadradas positivas, es mayor la que tiene menor cantidad subradical.
+
+Si aparece un factor fuera de la raíz, se puede introducir y luego comparar subradicales.
+
+### Ejemplo
+
+Ordena de menor a mayor los números $\sqrt{7}$, $3\sqrt{6}$, $5\sqrt{3}$ y $2\sqrt{5}$. Aplicando introducción de término:
+
+$$
+3\sqrt{6} = \sqrt{9 \cdot 6} = \sqrt{54},
+$$
+$$
+5\sqrt{3} = \sqrt{25 \cdot 3} = \sqrt{75},
+$$
+$$
+2\sqrt{5} = \sqrt{4 \cdot 5} = \sqrt{20}.
+$$
+
+Así, ordenar es equivalente a comparar $\sqrt{7}, \sqrt{20}, \sqrt{54}, \sqrt{75}$. Como $7 < 20 < 54 < 75$:
+
+$$
+\sqrt{7} < 2\sqrt{5} < 3\sqrt{6} < 5\sqrt{3}.
+$$
