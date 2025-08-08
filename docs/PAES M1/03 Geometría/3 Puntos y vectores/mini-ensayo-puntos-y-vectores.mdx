@@ -1,0 +1,321 @@
+---
+title: Mini Ensayo Puntos y Vectores - PAES M1
+sidebar_label: 🧠 Mini Ensayo Puntos y Vectores
+slug: /mini-ensayo-puntos-vectores-paes
+sidebar_position: 2
+description: "Mini ensayo de PAES M1 con ejercicios sobre puntos y vectores en el plano cartesiano."
+keywords: [PAES, Geometría, Vectores, Puntos, Plano Cartesiano, Ejercicios]
+---
+
+import PAESQuiz from '@site/src/components/PAESQuiz';
+
+<PAESQuiz
+  title="Mini Ensayo PAES M1: Puntos y Vectores"
+  description="Contiene 20 ejercicios tipo PAES sobre puntos y vectores en el plano cartesiano."
+  theme="Puntos y vectores"
+  duration={40}
+  questions={[
+    {
+      question: `En el plano de la figura, se muestra el polígono ABCD, ¿cuál(es) de las siguientes afirmaciones es (son) verdadera(s)?
+      I) El perímetro del polígono es $8\\sqrt{2}$.
+      II) Cada diagonal del polígono mide 4.
+      III) El área del polígono es $4\\sqrt{2}$.`,
+      imageUrl: "https://files.nicomelgarejo.com/p01gpunto.png",
+      imageAlt: "Polígono ABCD",
+      options: [
+        "Solo I",
+        "Solo II",
+        "Solo I y II",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 2,
+      explanation: "Clave: C"
+    },
+    {
+      question: `Al ubicar los puntos A($-1$, $-2$), B(5, $-2$) y C(5,3), en el sistema de ejes coordenados, se puede afirmar que:
+      I) $\\overline{\\mbox{AB}}\\perp\\overline{\\mbox{BC}}$
+      II) $\\overline{\\mbox{AB}}$ es paralelo al eje $x$.
+      III) (0,5) es un punto del trazo BC.`,
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "Solo II",
+        "Solo I y II",
+        "Solo I y III",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 1,
+      explanation: "Clave: B"
+    },
+    {
+      question: "En la figura están representados los vectores $\\vec{a}$ y $\\vec{b}$. ¿Cuál(es) de los gráficos presentados en I), en II) y en III) representa(n) la suma de estos dos vectores?",
+      imageUrl: "https://files.nicomelgarejo.com/p03gpunto.png",
+      imageAlt: "Vectores a y b",
+      options: [
+        "Solo I",
+        "Solo II",
+        "Solo I y II",
+        "Solo I y III",
+        "Solo II y III"
+      ],
+      correctIndex: 3,
+      explanation: "Clave: D"
+    },
+    {
+      question: "Si P es el conjunto de todos los puntos del plano de la forma (3, $y$) y S es el conjunto de todos los puntos del plano de la forma ($x$, 2), entonces el único punto común entre los conjuntos P y S es",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "(5, 1)",
+        "(3, 2)",
+        "(2, 3)",
+        "(1,$-1$)",
+        "(0, 0)"
+      ],
+      correctIndex: 1,
+      explanation: "Clave: B"
+    },
+    {
+      question: `En el plano cartesiano de la figura, se ubican los vectores $\\vec{a}$ y $\\vec{b}$ . ¿Cuál(es) de las siguientes afirmaciones es (son) verdadera(s)?
+      I) $3\\vec{a}=(12,15)$
+      II) $\\vec{a}+\\vec{b}=(7,1)$
+      III) $-\\vec{b}=(-3,-4)$`,
+      imageUrl: "https://files.nicomelgarejo.com/p05gpunto.png",
+      imageAlt: "Vectores a y b",
+      options: [
+        "Solo I",
+        "Solo I y II",
+        "Solo I y III",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 1,
+      explanation: "Clave: B"
+    },
+    {
+      question: "Si $\\vec{a}=\\left(\\dfrac{3}{2}, 6\\right)$ y $\\vec{b}=\\left(-\\dfrac{3}{2},-6\\right)$, entonces $4\\vec{a}-2\\vec{b}$ es igual a",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "(3, 0)",
+        "(9, 0)",
+        "(9, 12)",
+        "(3, 12)",
+        "(9, 36)"
+      ],
+      correctIndex: 4,
+      explanation: "Clave: E"
+    },
+    {
+      question: "Dados $\\vec{v} = (m, 2)$ y $\\vec{u} = (3, 4)$, ¿cuál de los siguientes números puede ser el valor de $m$ para que la longitud de $\\vec{v}$ sea el doble de la longitud de $\\vec{u}$?",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "$\\sqrt{96}$",
+        "$\\sqrt{104}$",
+        "$\\sqrt{46}$",
+        "$\\sqrt{21}$",
+        "1"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: "Dos vértices de un cuadrado son los puntos (0, 0) y (3, 4). ¿Cuál de los siguientes puntos \\textbf{NO} puede ser otro de los vértices del cuadrado?",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "(4, $-3$)",
+        "(7, 1)",
+        "(5, 0)",
+        "($-4$, 3)",
+        "($-1$, 7)"
+      ],
+      correctIndex: 2,
+      explanation: "Clave: C"
+    },
+    {
+      question: "Sean los puntos M y P de coordenadas (2, 3) y (5, $p$), respectivamente, con P en el cuarto cuadrante. Si la distancia entre estos puntos es 7 unidades, entonces el valor de $p$ es",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "$3-2\\sqrt{10}$",
+        "$3+2\\sqrt{10}$",
+        "$\\sqrt{31}$",
+        "$-\\sqrt{31}$",
+        "$-\\sqrt{67}$"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: `En un sistema de ejes coordenados se puede determinar el radio de una circunferencia, si se conoce:
+      (1) El centro de la circunferencia y un punto de ella.
+      (2) Dos puntos de la circunferencia.`,
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)",
+        "Se requiere información adicional"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: `Por los puntos A y B de la figura se trazan paralelas al eje $x$ y al eje $y$ formándose un polígono. ¿Cuál(es) de las siguientes afirmaciones es (son) verdadera(s)?
+      I) El polígono es un cuadrado.
+      II) $\\mbox{AB}=5\\sqrt{2}$
+      III) El perímetro del polígono es 20.`,
+      imageUrl: "https://files.nicomelgarejo.com/p11gpunto.png",
+      imageAlt: "Puntos A y B",
+      options: [
+        "Solo I",
+        "Solo III",
+        "Solo I y II",
+        "Solo I y III",
+        "I, II y III"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: "Si $a < 0$, entonces la magnitud del vector $(-a)(a^2, a^2)$ es",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "$\\sqrt{2}a^2$",
+        "$-a^5$",
+        "$-a$",
+        "$2a^3$",
+        "$-\\sqrt{2}a^3$"
+      ],
+      correctIndex: 4,
+      explanation: "Clave: E"
+    },
+    {
+      question: "Si P y Q son dos puntos ubicados en el eje de las ordenadas que están a una distancia de $\\sqrt{10}$ del punto (1, 2), entonces la distancia entre P y Q es",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "4",
+        "6",
+        "$2\\sqrt{6}$",
+        "10",
+        "$2\\sqrt{10}$"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: "Si en el plano cartesiano de la figura adjunta se representan $\\vec{v}$ y $\\vec{w}$, entonces $(2\\vec{v}-\\vec{w})$ es",
+      imageUrl: "https://files.nicomelgarejo.com/p14gpunto.png",
+      imageAlt: "Vectores v y w",
+      options: [
+        "(5, 9)",
+        "(3, 9)",
+        "($-4$, 0)",
+        "(9, 5)",
+        "ninguno de los vectores anteriores."
+      ],
+      correctIndex: 1,
+      explanation: "Clave: B"
+    },
+    {
+      question: "Si las coordenadas de los vértices de un triángulo son (4, 0), (12, 0) y (12, 8), ¿cuál es el área del triángulo, en unidades cuadradas?",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "32",
+        "48",
+        "96",
+        "64",
+        "$16\\sqrt{2}$"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: "En la figura adjunta el triángulo ABC tiene sus catetos paralelos a los ejes coordenados. Si $\\mbox{AB} = 2\\sqrt{10}$ unidades y $p > 0$, entonces las coordenadas del punto medio de $\\overline{\\mbox{AB}}$ son",
+      imageUrl: "https://files.nicomelgarejo.com/p16gpunto.png",
+      imageAlt: "Triángulo ABC",
+      options: [
+        "(3, 1)",
+        "(8, 3)",
+        "(14, 3)",
+        "(3, 3)",
+        "(4, 3)"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    },
+    {
+      question: `Se pueden determinar las coordenadas del extremo de un vector dado $\\vec{u}$, que tiene la misma dirección y origen que $\\vec{v}$ de la figura adjunta, si se sabe que:
+      (1) $\\vec{u}$ y $\\vec{v}$ tienen el mismo sentido.
+      (2) El módulo de $\\vec{u}$ es igual al doble del módulo de $\\vec{v}$.`,
+      imageUrl: "https://files.nicomelgarejo.com/p17gpunto.png",
+      imageAlt: "Vector v",
+      options: [
+        "(1) por sí sola",
+        "(2) por sí sola",
+        "Ambas juntas, (1) y (2)",
+        "Cada una por sí sola, (1) ó (2)",
+        "Se requiere información adicional"
+      ],
+      correctIndex: 2,
+      explanation: "Clave: C"
+    },
+    {
+      question: `Considere los vectores $\\vec{p}$(6, $-4$), $\\vec{q}$(2, 9), $\\vec{r}$(5, $-2$) y $\\vec{s}$(3, 7). ¿Cuál(es) de las siguientes afirmaciones es (son) verdadera(s)?
+      I) El vector $(\\vec{q}-\\vec{r})$ se encuentra en el segundo cuadrante.
+      II) El vector $(\\vec{s}-2\\vec{p})$ se encuentra en el tercer cuadrante.
+      III) $\\vec{p}+\\vec{q}=\\vec{r}+\\vec{s}$`,
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "Solo I",
+        "Solo I y II",
+        "Solo I y III",
+        "Solo II y III",
+        "I, II y III"
+      ],
+      correctIndex: 2,
+      explanation: "Clave: C"
+    },
+    {
+      question: `Considere los puntos P($x, y$), Q($-x, -y$) y O(0, 0), con $x$ e $y$ números enteros. ¿Cuál(es) de las siguientes afirmaciones es (son) \\textbf{siempre} verdadera(s)?
+      I) La distancia entre P y Q es 0.
+      II) La distancia entre P y O es la misma que la distancia entre Q y O.
+      III) Los puntos P, Q y O son colineales.`,
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "Solo I",
+        "Solo II",
+        "Solo III",
+        "Solo I y III",
+        "Solo II y III"
+      ],
+      correctIndex: 4,
+      explanation: "Clave: E"
+    },
+    {
+      question: "¿Cuál es el radio de la circunferencia que tiene como centro el punto ($-1$, 1) y el punto ($-5$, $-2$) pertenece a ella?",
+      imageUrl: "",
+      imageAlt: "",
+      options: [
+        "$3\\sqrt{5}$ unidades",
+        "5 unidades",
+        "7 unidades",
+        "$\\sqrt{37}$ unidades",
+        "$\\sqrt{17}$ unidades"
+      ],
+      correctIndex: 0,
+      explanation: "Clave: A"
+    }
+  ]}
+/>
