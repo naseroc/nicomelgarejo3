@@ -75,7 +75,7 @@ const config = {
   ],
 
   themeConfig: {
-    favicon: 'https://files.nicomelgarejo.com/favicon.ico',
+    favicon: 'img/favicon.ico',
     metadata: [
       { name: 'keywords', content: 'educación, tecnología, innovación, paes, preuniversitario, libros' },
       { name: 'twitter:card', content: 'summary_large_image' },
