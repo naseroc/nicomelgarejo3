@@ -31,15 +31,10 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            📘 Libro Oficial PAES M1
+            to="https://cursos.nicomelgarejo.com">
+            📘 Cursos online PAES
           </Link>
-          <Link
-            className="button button--primary button--lg"
-            to="https://cursos.nicomelgarejo.com/796da5e1"
-            style={{ marginLeft: '1rem' }}>
-            🎯 Tomar ENSAYO PAES M1
-          </Link>
+    
         </div>
       </div>
     </header>

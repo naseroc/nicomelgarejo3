@@ -80,7 +80,7 @@ const config = {
       { name: 'keywords', content: 'educación, tecnología, innovación, paes, preuniversitario, libros' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { property: 'og:title', content: 'Nico Melgarejo - Innovación en educación, tecnología y negocios' },
-      { property: 'og:description', content: 'Recursos educativos gratuitos para la preparación PAES M1. Libros, ejercicios y más.' },
+      { property: 'og:description', content: 'Recursos educativos para la preparación PAES M1. Libros, ejercicios y más.' },
       { property: 'og:image', content: 'https://nicomelgarejo.com/img/nicomelgarejo-social-card.png' },
       { property: 'og:url', content: 'https://nicomelgarejo.com/' },
       { property: 'og:type', content: 'website' },
