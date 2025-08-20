@@ -1,0 +1,230 @@
+---
+title: Transformaciones isométricas - PAES M1
+slug: /transformaciones_isometricas
+sidebar_label: Transformaciones isométricas
+sidebar_position: 1
+description: "Resumen de Transformaciones Isométricas para PAES M1. Incluye traslaciones, simetrías (axial y central) y rotaciones."
+keywords: ["PAES", "Geometría", "Transformaciones isométricas", "Traslaciones", "Simetrías", "Rotaciones"]
+---
+
+# Transformaciones isométricas
+
+Una transformación isométrica es un movimiento en el plano que mantiene la forma y tamaño de una figura, es decir, la figura resultante es **congruente** a la inicial y se denomina **figura homóloga** o imagen. La figura inicial, en tanto, se denomina **figura origen**.
+
+Entre las transformaciones isométricas que estudiaremos se encuentran las traslaciones, las rotaciones y las simetrías. Cuando trabajemos con cualquiera de estas tres transformaciones nos será útil acudir a un **sistema de coordenadas** para poder describir la posición de los diferentes puntos que forman nuestras figuras a transformar.
+
+## Sistema de coordenadas
+
+Recordemos que el sistema de coordenadas cartesiano está formado por dos rectas perpendiculares numeradas: una horizontal, denominada eje de las abscisas o eje $X$ y otra vertical, denominada eje de las ordenadas o eje $Y$. Estas dos rectas se intersectan en un punto denominado origen que corresponde al $0$ de ambas rectas numéricas.
+
+La posiciones de los puntos en el plano cartesiano se designan como pares ordenados, por ejemplo el punto $P$ de la figura se escribe como $P(2,-4)$. En esta notación, la primera componente del par ordenado nos indica que el punto $P$ se ubica dos unidades hacia la derecha en el eje de las abscisas. Mientras que la segunda componente del par ordenado nos indica que el punto $P$ se ubica cuatro unidades hacia abajo en el eje de las ordenadas.
+
+# Traslaciones
+
+Trasladar un punto $P(x,y)$ con respecto a un vector traslación $\vec v$, significa mover dicho punto según las componentes que definen al vector traslación. Esto es, el punto se moverá en la misma dirección, en el mismo sentido y en la misma magnitud que el vector $\vec{v}$. En el plano cartesiano se resume a la utilización de las coordenadas del vector $\vec{v} = (a, b)$.
+
+Así, el punto $P$ se trasladará $|a|$ unidades hacia la izquierda o hacia la derecha, según indique el signo de **a**, y $|b|$ unidades hacia arriba o hacia abajo, según indique el signo de **b**.
+
+Para estandarizar este movimiento, basta con darse cuenta que si se aplica una traslación al punto $P(x,y)$ según el vector $\vec{v} = (a,b)$, se obtiene un nuevo punto $P'$, cuyas coordenadas estarán dadas por:
+
+$$
+P' (x+a, y+b)
+$$
+
+Al punto $P'$ se le llama **imagen del punto $P$ según la traslación determinada por el vector $\vec{v}$**.
+
+En el caso de querer trasladar una figura completa, lo que hacemos es aplicar el vector traslación a todos los puntos que componen la figura. En el caso de un polígono, lo que nos conviene es aplicar la traslación a los vértices de la figura original para obtener la imagen.
+
+<div className="definition-box">
+  <strong>Ejemplo 1:</strong> Si queremos trasladar el punto $\textcolor{blue}{A(2, -5)}$ con respecto del vector $\textcolor{red}{\vec{v} = (-4,8)}$, lo podemos interpretar como que debemos mover el punto **P** cuatro unidades hacia la izquierda (-) y ocho unidades hacia arriba (+) obteniéndose como resultado:
+  
+  $$P'(\textcolor{blue}{2}+ \textcolor{red}{-4},~ \textcolor{blue}{-5} + \textcolor{red}{8}) = P'(-2,3)$$
+</div>
+
+<div className="definition-box">
+  <strong>Ejemplo 2:</strong> Si al punto $A(2,~4)$ se le aplica una traslación según el vector $\vec v = (6,-2)$, entonces se obtiene el punto:
+  
+  $$
+  A' = (2,~4) + (6, -2) = (8,~ 2)
+  $$
+</div>
+
+<div className="definition-box">
+  <strong>Ejemplo 3:</strong> Si queremos trasladar el $\bigtriangleup{ABC}$ cuyos vértices son los puntos $A(1,~3)$, $B(4,~2)$ y $C(3,~6)$, de acuerdo al vector  $\vec{v}=(-5,-1)$ significa que debemos mover los tres vértices del triángulo 5 unidades hacia la izquierda y 1 unidad hacia abajo.
+  
+  De acuerdo a la imagen podemos notar que para trasladar por ejemplo los vértices del $\bigtriangleup{ABC}$ basta con sumarles a sus pares ordenados el vector traslación, es decir:
+  
+  $$
+  \begin{align*}
+    A' &= A + \vec v = (1,~3) + (-5,-1) = (-4,~2)\\
+    B' &= B + \vec v = (4,~2) + (-5,-1) = (-1,~1)\\
+    C' &= C + \vec v = (3,~6) + (-5,-1) = (-2,~5)\\
+  \end{align*}
+  $$
+  
+  Concluimos entonces que al realizar la traslación del $\bigtriangleup{ABC}$ respecto al vector $\vec{v}=(-5,-4)$ obtenemos el $\bigtriangleup{A'B'C'}$ con coordenadas $A'(-4,~2)$, $B'(-1,~1)$ y $C'(-2,~5)$.
+</div>
+
+## Composición de traslaciones
+
+Cuando hablemos de composición de traslaciones estamos haciendo referencia a la aplicación de más de una traslación consecutiva sobre un objeto.
+
+Por ejemplo si a un punto $O(-4,~2)$ le aplicamos la traslación $\vec{v}=(2,-4)$ y sobre esa imagen otra  traslación $\vec{w}=(6,~4)$ obtenemos un punto de coordenadas $O''(4,~2)$.
+
+$$
+\begin{split}
+  (-4,~2) + (2,-4) &=(-2,-2)\\
+  (-2,-2) + (6,~4) &=(4,~2)
+\end{split}
+$$
+
+Notemos además que aplicar la traslación **v** y luego la **w** al punto **O**, es equivalente a aplicar una única traslación al punto **O** con un vector traslación igual a la suma del vector **v** y **w**.
+
+## Propiedades de la traslación
+
+- Al aplicar una traslación $\vec{v}=(a,b)$ a un punto cualquiera $P(x,y)$ la imagen que se obtiene corresponde al punto $P'(x+a,y+b)$.
+- En la composición de traslaciones el orden en que se aplican a una figura no influyen en el resultado.
+- Toda composición de traslaciones se puede reducir a una única traslación cuyo vector de traslación corresponde a la suma de cada vector por separado.
+
+# Simetrías
+
+Una  simetría o reflexión corresponde a aquellos movimientos que invierten los puntos y las figuras en el plano. Esta transformación isométrica se puede dividir en simetría axial y simetría central.
+
+## Simetría axial
+
+Es una **transformación isométrica** que mueve cada punto de la figura, de modo que el punto inicial y su homólogo equidistan de una **recta** llamada **eje de simetría**. Es importante destacar que si **A'** es la imagen respecto de una simetría axial del punto **A** por una recta **L**, entonces el segmento $\overline{AA'}$ es perpendicular a la recta **L**.
+
+Las distancias de cada vértice de la figura original **ABCDE** al eje de simetría, son iguales a las de sus vértices homólogos al eje de simetría.
+
+Podemos identificar tres tipos de rectas:
+
+- Las verticales de ecuación $x = a$ con $a \in \mathbb{R}$.
+- Las horizontales de ecuación $y = a$ con $a \in \mathbb{R}$.
+- Las oblicuas de ecuación $y = mx + n$ con $m,n \in \mathbb{R}$ y $m\neq 0$
+
+### Si el eje de simetría es vertical ($x = a$)
+
+Consideremos un punto $P(m,~n)$ al que le aplicamos una simetría axial respecto de $x = a$ y obtenemos el punto $P'(m', n')$. En tal caso se cumplirá que:
+
+$$m' = 2a - m \quad\text{ y }\quad n' = n$$
+
+Esto se debe a que al ser el eje de simetría **vertical**, el punto hará un movimiento horizontal y, por lo tanto, su ordenada no sufrirá cambios.
+
+Por otro lado, las abscisas satisfacen la siguiente condición:
+
+$$\dfrac{m +m'}{2} = a$$
+
+ya que el punto medio entre $P$ y $P'$ pertenece al eje de simetría.
+
+### Si el eje de simetría es horizontal ($y = a$)
+
+Consideremos un punto $P(m,~n)$ al que le aplicamos una simetría axial respecto de $y = a$ y obtenemos el punto $P'(m', n')$. En tal caso se cumplirá que:
+
+$$m' =  m \quad\text{ y }\quad n' = 2a - n$$
+
+Esto se debe a que al ser el eje de simetría **horizontal**, el punto hará un movimiento vertical y, por lo tanto, su abscisa no sufrirá cambios.
+
+Por otro lado, las ordenadas satisfacen la siguiente condición:
+
+$$\dfrac{n +n'}{2} = a$$
+
+ya que el punto medio entre $P$ y $P'$ pertenece al eje de simetría.
+
+### Si el eje de simetría es oblicuo del tipo $y = x$
+
+Consideremos un punto $P(m,~n)$ al que le aplicamos una simetría axial respecto de $y = x$ y obtenemos el punto $P'(m', n')$. En tal caso se cumplirá que: $(m', n') = (n, m)$
+
+Esto debido a que será equivalente a rotar el punto en $180^\circ$. También lo podemos asociar la gráfica de la función inversa de una función. Recordemos que en tal caso las gráficas son simétricas respecto a la recta $y = x$.
+
+### Si el eje de simetría es oblicuo del tipo $y = x + a$
+
+Consideremos un punto $P(m,~n)$ al que le aplicamos una simetría axial respecto de $y = x + a$ y obtenemos el punto $P'(m',n')$. Los pasos para resolver este problema son:
+
+1. Trasladamos la recta y el punto respecto del vector traslación $\vec{v} = (0, - a)$. Obtendremos una nueva recta $y = x$ con la misma pendiente que la original pero que pasa por el origen. Además el punto $P(m,n)$ pasará a $P''(m, +n - a)$.
+2. Hacemos la simetría del punto $P''$ respecto a la recta $y = x$ según lo visto en el caso anterior. Obtendremos el punto $P'''(n-a, m)$.
+3. Trasladamos el punto $P'''(n-a, m)$ respecto del vector traslación $-\vec{v} = (0, a)$ obteniendo el punto buscado: 
+
+$$P'(m', n') = (n - a, m + a)$$
+
+<div className="definition-box">
+  <strong>Ejemplo 1: </strong> ¿Cuál es el resultado de aplicar una simetría axial al punto $P(2,~4)$ respecto de la recta $x = 5$ ?
+  
+  Si se refleja el punto $P(2,~4)$ con respecto a la recta $x = 5$, se obtiene el punto $(8,~4)$, ya que la ordenada (4) se mantiene fija,  mientras que la abscisa del punto $P'$ debe ser un valor **x** tal que promediado con 2 resulte 5
+  
+  $$
+  \begin{align*}
+    \dfrac{x + 2}{2} &= 5\\
+    x &= 10 - 2\\
+    x &= 8
+  \end{align*}
+  $$
+  
+  En este caso el valor de la abscisa de $P'$ es 8 y el punto es $P'(8,~4)$.
+  
+  <strong>Ejemplo 2: </strong> ¿Cuál es el resultado de aplicar una simetría axial al punto $P(2,~4)$ respecto de la recta $y = 5$ ?
+  
+  Si se refleja el punto $P(2,~4)$ con respecto a la recta $y = 5$, se obtiene el punto $(2,~6)$, ya que la abscisa (2) se mantiene fija, mientras que la ordenada del punto $P'$ debe ser un valor **y** tal que promediado con 4 resulte 5
+  
+  $$
+  \begin{align*}
+    \dfrac{y + 4}{2} &= 5\\
+    y &= 10 - 4\\
+    y &= 6
+  \end{align*}
+  $$
+  
+  En este caso el valor de la ordenada de $P'$ es 6 y el punto es $P'(2,~6)$.
+</div>
+
+## Composición de simetrías axiales
+
+Cuando hablemos de composición de simetrías axiales estamos haciendo referencia a la aplicación  de dos simetrías axiales a una figura de forma consecutiva, es decir, una después de la otra.
+
+Por otro lado, si al mismo punto $A$ le aplicamos las simetrías en orden inverso, es decir primero reflejamos respecto a la recta $M$ y luego respecto a la recta $L$ obtenemos el punto circular $A^{\circ\circ}$ que muestra la figura, el cual es distinto al punto $A''$.
+
+<div className="definition-box">
+  A partir de lo anterior, podemos darnos cuenta que en la composición de simetrías axiales **no es conmutativa**, es decir, sí importa el orden de aplicación.
+</div>
+
+## Simetría central
+
+Una **simetría central** de un punto $P(x,~y)$ efectuada con respecto a un punto fijo $C(a,~b)$, llamado **centro de simetría**, es una transformación isométrica que asocia un punto $P(x,~y)$ con un punto $P'(x',~y')$ tal que: 
+
+$$\dfrac{x+x'}{2} = a \quad \text{ e }\quad \dfrac{y + y'}{2} = b$$
+
+Esto se debe a que el punto $P'(x',~y')$ y $P(x,~y)$ están a la misma distancia del punto $C(a,~b)$ y, además, $P'$ pertenece a la recta que contiene al segmento $\overline{PC}$.
+
+**Aplicar una simetría central equivale a rotar en $180^\circ$, considerando como centro de rotación el centro de simetría.**
+
+## Rotaciones
+
+Una  rotación es una transformación isométrica que mueve los puntos según un punto fijo llamado **centro de rotación** (D) y un ángulo de rotación ($\alpha$). Generalmente se dennota $R_{(D,~\alpha)}$. Las rotaciones en sentido **positivo** se realizan en **contra** del movimiento de los punteros del reloj (antihorario), mientras que las que tienen sentido **negativo**, se realizan **a favor** del movimiento de los punteros del reloj.
+
+## Rotaciones notables
+
+Para cualquier punto $(x,y)$ que se rota en torno al origen del eje de coordenadas en los ángulos de $90^\circ$, $180^\circ$, $270^\circ$ y $360^\circ$ se tiene que:
+
+<div className="table-container">
+  $$
+  \begin{array}{|c|c|c|c|c|}\hline
+    \textbf{Punto inicial} & \textbf{$90\text{°}$} & \textbf{$180\text{°}$} & \textbf{$270\text{°}$} & \textbf{$360\text{°}$} \\ \hline
+    (x,~y) & (-y,~x) & (-x,-y) & (y,-x) & (x,~y) \\ \hline
+  \end{array}
+  $$
+</div>
+
+La regla es que por cada rotación en 90 grados, invertimos el orden de las coordenadas, y a la primera coordenada resultante le invertimos el signo.
+
+## Rotaciones con centro que no es el origen
+
+Para rotar un punto cualquiera, con respecto a cualquier punto del plano (que no sea el origen), se puede seguir el procedimiento que se describe a continuación.
+
+Supongamos que queremos rotar el punto $P(x,y)$, con respecto al punto $C(h,k)$, en un ángulo de $90^\circ$ y que resultado esa rotación será $Q(a,b)$. Podemos seguir estos pasos:
+
+1. Se trasladan todos los puntos de tal manera que nuestro centro de rotación sea $(0,0)$ que es el punto al cual ya sabemos rotar. Para esto trasladamos según el vector $\vec{v} = (-h, -k)$, así obtenemos los puntos $P'(x-h, y-k)$ y $C'(0,0)$.
+
+2. Se rota ahora $P'$ respecto de $C'$ según el ángulo pedido de $90^\circ$ que según las reglas anteriores será $P''(k-y, x-h)$.
+
+3. Una vez hecha la rotación anterior, lo que nos falta es volver al sistema de coordenadas inicial (es equivalente a deshacer la traslación inicial). Para esto utilizamos el vector $\vec{v} = (h,k)$. Así $P'$ vuelve a ser $P(x,y)$ y $C'$ vuelve a ser $C$.
+
+$$Q(a,b) = (k-y+h, x-h+k)$$
