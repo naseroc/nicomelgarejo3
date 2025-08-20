@@ -22,6 +22,33 @@
   justify-content: center;
 }
 
+.buttons a {
+  background-color: #f3c74e;
+  color: #6633cc;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buttons a:hover {
+  background-color: #6633cc;
+  color: #f3c74e;
+}
+
+.hero__title {
+  color: #6633cc;
+}
+
+.hero__subtitle {
+  color: #c2adeb;
+}
+
 .videoContainer {
   margin: 2rem auto;
   max-width: 800px;
